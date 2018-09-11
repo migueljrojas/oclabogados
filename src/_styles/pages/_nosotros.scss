@@ -1,0 +1,25 @@
+.nosotros {
+    position: relative;
+    height: 63vh;
+
+    &__text {
+        height: 60%;
+        background: $fadedRed;
+        display: flex;
+        padding: 50px;
+
+        &__main {
+            font-family: $quoteFont;
+            font-size: 2vw;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        &__content {
+            flex-basis: 26%;
+            padding-left: 50px;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+    }
+}

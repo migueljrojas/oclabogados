@@ -1,0 +1,276 @@
+[
+    {
+        "title":"Derecho Corporativo",
+        "pages":[
+            [
+                "El área Corporativa es el núcleo de nuestros servicios, en cuanto coordina los trabajos de asesoría de las distintas especialidades, logrando satisfacer las necesidades de los clientes en las más variadas industrias, con la profundidad y realidad que los negocios requieren actualmente.",
+                "Los impactos del desarrollo y la regulación, cada vez más específica, requieren de una permanente búsqueda de soluciones y alternativas a los desafíos más variados, donde contar con un asesor directo, inmediato y con capacidad de respuesta, son imprescindibles."
+            ],
+            {
+                "servicios":[
+                    "Fusions y Adquisiciones",
+                    "Reorganizaciones",
+                    "Representaciones legales"
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Matías Ovalle",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Bárbara Morgan",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Litigación",
+        "pages":[
+            [
+                "La litigación de alta complejidad y la incorporación de nuevos tribunales especializados son todo un desafío. En este escenario, hemos consolidado un equipo de litigación conformado por profesionales altamente capacitados y de vasta experiencia en esta práctica, capaces de estar a la altura de las nuevas exigencias.",
+                "El área de Litigación se orienta a la resolución estratégica y efectiva de conflictos de alto interés e importancia para cada cliente, acompañándolos desde la etapa previa de negociación, tendiente a evitar la judicialización innecesaria, así como hasta la última instancia jurisdiccional correspondiente.",
+                "Así, desde una mirada creativa y con el conocimiento técnico que respalda al equipo, esta práctica representa los intereses de cada cliente en todo ámbito de controversias, destacando principalmente aquellas de naturaleza comercial, civil, tributaria y contencioso administrativo."
+            ],
+            {
+                "servicios":[
+                    "Juicios ordinarios y especiales",
+                    "Arbitrajes",
+                    "Litigación ante tribunales ordinarios",
+                    "Contencioso administrativo"
+                ],
+                "asociados":[
+
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Javier Ovalle",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Josefina Escobar",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Derecho de Seguros",
+        "pages":[
+            [
+                "El terremoto de 2010 reveló la escasa asesoría especializada con la que contaban los asegurados para enfrentar sus reclamaciones de pérdida, revelando la gran asimetría que existía entre estos y sus aseguradores. En virtud de ello, ese mismo año se creó el área de Seguros, orientada a prestar servicios en forma exclusiva a empresas que no forman parte del mercado asegurador.",
+                "Esta área fue pionera en el diseño y gestión de procesos de licitación privada de seguros, servicio que se ha ido sofisticando en el tiempo, extendiéndose a toda clase de coberturas. Ello ha permitido que, de manera transparente, nuestros clientes optimicen al máximo sus programas de seguro, razón por la cual este servicio se ha extendido también a las filiales que algunos de estos tienen en otros países de la región.",
+                "Entre los servicios que presta, destacan los informes de análisis de riesgo, estructuración de programas de seguro, la revisión de las cláusulas atingentes presentes en contratos de construcción, compraventa, leasing, entre otros. Asimismo, se entrega asesoría en la presentación y reclamación de pérdida en procesos de liquidación, minimizándose así la posterior judicialización de controversias."
+            ],
+            {
+                "servicios":[
+                    "Auditorías de Riesgo",
+                    "Diseño de Programas de Seguros",
+                    "Gestión de Procesos de Licitación de Seguros",
+                    "Asesoría en Procesos de Liquidación de Siniestros",
+                    "Gestión externa de todos los asuntos relacionados a seguros (reporte de cambios en el riesgo, solicitudes de endoso, notificación de siniestros, relación con Bancos beneficiarios, entre otros)"
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socia",
+                        "nombre":"Alejandra Schibli",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Nicolás Ruedi",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Derecho Tributario",
+        "pages":[
+            [
+                "El preciso cumplimiento de la normativa tributaria y un control adecuado y responsable, son condiciones actualmente  fundamentales para obtener una mayor rentabilidad en los negocios. A esto se suma la exigencia cada vez mayor por parte de la autoridad en la participación de la alta dirección corporativa sobre las decisiones tributarias que toma cada empresa.",
+                "Entre las razones que hay detrás de lo anterior destacan  la reforma tributaria que aumenta las facultades del Servicio de Impuestos Internos, el  desarrollo tecnológico que permite un mayor escrutinio sobre las operaciones de los contribuyentes y las nuevas tendencias de fiscalización. Ante esto, el área Tributaria entrega una asesoría experta que  acompaña a cada cliente en todas las etapas del negocio, a efectos de lograr tratamientos tributarios eficientes cuidando en todo momento el adecuado cumplimiento de la legislación vigente.",
+                "Dentro de los principales servicios que ofrece el área está la elaboración de informes de estructura legal tributaria, la revisión de gastos y respaldos y la asesoría especializada en la revisión y redacción de estructuras corporativas, de contratos y en general, de efectos tributarios de todo tipo de transacciones. Las asesorías también se extienden al acompañamiento permanente en procesos de revisión tributaria que buscan disminuir las situaciones de controversia en la etapa administrativa o realizar reclamaciones ante los tribunales que corresponda."
+            ],
+            {
+                "par":[
+                    "En cuanto a tributación internacional, el estudio cuenta con una amplia experiencia tanto en asesorías de inversión extranjera en Chile, como en inversiones chilenas en el exterior. Este conocimiento se complementa con el trabajo colaborativo desarrollado con abogados en Estados Unidos, Europa y Asia. En cada caso se analizan los efectos del impuesto adicional aplicable a remesas al extranjero, la aplicación de convenios internacionales para evitar la doble tributación internacional, la tributación en Chile por rentas pasivas mantenidas al  extranjero y la utilización como crédito de impuestos pagados en el extranjero."
+                ],
+                "servicios":[
+                    "Informes de estructura legal tributaria",
+                    "Revisión preventiva de gastos y respaldos",
+                    "Tributación Internacional",
+                    "Asistencia en procesos de revisiones tributarias",
+                    "Reclamaciones ante los tribunales tributarios y aduaneros"
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Álvaro Parra",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Joaquín Erlbaun",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Derecho Labiral y Migratorio",
+        "pages":[
+            [
+                "Esta área presta asesoría en forma directa y permanente en materias laborales, previsionales y migratorias a empresas de las más variadas actividades productivas.",
+                "Dentro de los servicios que ofrece está la revisión y redacción de documentos que cumplan con la normativa vigente, además de la planificación, gestión e implementación de los procesos vinculados con las relaciones individuales y colectivas de trabajo, destacando entre ellos la asesoría en procesos de negociación colectiva.",
+                "En el ámbito migratorio, el área Laboral y Migratoria asiste en el proceso de contratación de personal extranjero y gestión en la obtención de las autorizaciones migratorias necesarias, tanto en Chile como en el exterior.",
+                "El  equipo se caracteriza por la cercana y cotidiana relación que mantiene con cada cliente. Esto permite entregar un servicio oportuno, de calidad y a la medida de las necesidades particulares de cada empresa.",
+                "Esta área trabaja en constante coordinación con el área de Servicios Judiciales, que asume la representación de nuestros clientes en el ámbito de los asuntos litigiosos que puedan surgir."
+            ],
+            {
+                "servicios":[
+                    "Negociaciones colectivas",
+                    "Redacción de contratos de trabajo, finiquitos, Reglamentos Internos, entre otros",
+                    "Gestión de trámites migratorios"
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Matías Ovalle",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Juan Ignacio Chamorro",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Derecho Público, Regulatorio y Administrativo",
+        "pages":[
+            [
+                "En el último tiempo se han acrecentado las regulaciones públicas sobre distintos mercados o actividades. Es por esto que hoy es fundamental, principalmente para el mundo privado, mantener un adecuado control y cumplimiento de estas normas a la hora de desarrollar un buen negocio en Chile.",
+                "Ya sea desde la perspectiva constitucional, ambiental, energética, de telecomunicaciones, acuícola, municipal u otra similar, la recomendación es contar con un apoyo constante para la formulación de presentaciones ante los Tribunales de Justicia y organismos reguladores, así como para defender los intereses particulares en procedimientos sancionatorios. Esta área presta asesoría en todos aquellos aspectos. Asimismo, lidera impugnaciones de legalidad y solicitudes de dictámenes ante la Contraloría General de la República.",
+                "Los servicios incluyen una asesoría integral en torno al cumplimiento normativo continuo al que están expuestos los sectores regulados, junto con la obtención de permisos y autorizaciones administrativas que cada cliente requiere. En esta línea de trabajo se ofrece también una completa asistencia en favor del cumplimiento regulatorio en procesos de Due Diligence."
+            ],
+            {
+                "servicios":[
+                    "Obtención de permisos y autorizaciones administrativas",
+                    "Impugnaciones de legalidad y solicitudes de dictámenes a la Contraloría General de la República",
+                    "Asistencia y representación en procedimientos administrativos sancionadores.",
+                    "Asesoría en licitaciones públicas ante organismos del Estado",
+                    "Acciones constitucionales y presentación de reclamos de ilegalidad municipal",
+                    "Asistencia al cumplimiento regulatorio en procesos de Due Diligence",
+                    "Asesoría legislativa y análisis de impacto regulatorio de nuevas iniciativas legales"
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Javier Ovalle",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Gerardo Ramírez",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Derecho Inmobiliario",
+        "pages":[
+            [
+                "El estudio cuenta con una amplia experiencia en el ámbito inmobiliario, brindando siempre una asesoría integral en las etapas de evaluación, planificación, desarrollo, financiamiento y posterior comercialización de proyectos industriales, comerciales y residenciales, tanto urbanos como rurales.",
+                "A través de esta área se acompaña a inversionistas, propietarios y otras partes involucradas en la negociación y confección de acuerdos preliminares a la adquisición de un inmueble, en el cierre de negocios, en los contratos de promesa, en las ofertas, entre otros. A esto se suma el análisis de los títulos de los inmuebles involucrados y de los permisos o autorizaciones administrativas, sectoriales y/o medioambientales correspondientes. El objetivo de este trabajo es determinar la existencia de posibles contingencias en cada uno de estos ámbitos y presentar, en el menor tiempo posible, soluciones jurídicas eficaces."
+            ],
+            {
+                "par":["Junto con lo anterior, confecciona  los contratos que materializan la adquisición de un inmueble y su posterior venta a terceros, además de  representar a sus clientes en las  gestiones o presentaciones que deban efectuar ante la autoridad competente. Por último,  recomienda, desde una perspectiva estratégica, la clase de contrato de construcción que resulte más adecuada y eficiente para la ejecución de cada proyecto, acompañando a los clientes en los procesos de licitación pública o privada que se efectúen a su respecto."],
+                "servicios":[
+                    "Asesoría en la planificación y diseño de proyectos inmobiliarios",
+                    "Asesoría en materia de gestión inmobiliaria",
+                    "Contratos de promesa, opción, entre otros contratos preparatorios",
+                    "Contratos de compraventa, leasing, leaseback, arrendamiento, entre otros",
+                    "Contratos de construcción"
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Álvaro Parra",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Maricarmen González",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Servicios Judiciales",
+        "pages":[
+            [
+                "Hoy en día las empresas se mueven en un contexto donde la exposición a distintas controversias es cada vez más probable, independiente de cuan prolijas o cuidadosas sean, de manera tal que deben internalizarlas como parte de sus riesgos operativos.",
+                "La misión de esta área es prestar una asesoría permanente e integrada, que permita entender en profundidad y desde la mirada del propio cliente, los desafíos asociados a su giro, para así contribuir activamente en la prevención y mitigación de contingencias legales, evitando la judicialización de los conflictos. Todo esto, con un alto sentido de costo - eficiencia.",
+                "De este modo, presta asesoría en la instancia prejudicial y/o judicial asociada a conflictos de naturaleza laboral, o aquellos sometidos a normativas especiales tales como Ley de Defensa del Consumidor, Rentas Municipales, entre otras que, en atención al giro particular de cada empresa, puedan generarle controversias de carácter recurrente.",
+                "Asimismo, asume la administración y gestión de la cartera de cobranza de nuestros clientes habituales, desde lo extrajudicial, hasta la íntegra tramitación de juicios ejecutivos o procedimientos de liquidación concursal,  según corresponda."
+            ],
+            {
+                "servicios":[
+                    "Litigación laboral",
+                    "Cobranzas judiciales",
+                    "Litigación en Juzgados de Policía Local "
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Javier Ovalle",
+                        "link":"#"
+                    },
+                    {
+                        "titulo":"Directora",
+                        "nombre":"Juan Francisco Ready",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Asesoría al Emprendimiento",
+        "pages":[
+            [
+                "Gracias al aporte de las pequeñas y medianas empresas a la economía y a los índices laborales del país, el emprendimiento se ha convertido en una de las iniciativas más valoradas en Chile. Sin embargo, iniciar un proyecto o un nuevo negocio no siempre es tarea fácil.",
+                "Ante esta situación y en línea con los tiempos, surge el área de Emprendimiento y Desarrollo, capaz de prestar asesoría directa y experta a pymes y nuevos emprendimientos. Su objetivo es entregar un servicio ágil, cercano y de calidad que contribuya al crecimiento de cada iniciativa. Para ello se generan relaciones directas que buscan comprender integralmente el negocio que se está evaluando o llevando a cabo.",
+                "Los abogados de este equipo cuentan con una vasta experiencia en el desarrollo y en la estructuración de empresas, tanto en la etapa de formalización o en la planificación del plan de negocios, como en la realización del proyecto. Y si bien están plenamente capacitados para acompañar a los nuevos negocios en todas las materias legales, su quehacer se enfoca principalmente en el derecho tributario, corporativo, laboral, inmobiliario, regulatorio y de contratos en general."
+            ],
+            {
+                "par":["Dentro de los servicios prestados por el área destaca la evaluación inicial del negocio, la asesoría de puesta en marcha y la asesoría respecto a contratos de financiamientos. Mediante estos se analiza y asesora el modelo de negocio inicial para determinar y confeccionar el tipo de contratos que le corresponde a su rubro, se implementan las estructuras legales y se revisan los términos generales de los contratos y estructuras de financiamiento."],
+                "servicios":[
+                    "Evaluación inicial del negocio",
+                    "Asesoría de puesta en marcha",
+                    "Asesoría en contratos de financiamiento"
+                ],
+                "asociados":[
+                    {
+                        "titulo":"Socio",
+                        "nombre":"Álvaro Parra",
+                        "link":"#"
+                    }
+                ]
+            }
+        ]
+    }
+]

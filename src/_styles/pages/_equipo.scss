@@ -1,0 +1,231 @@
+.equipo {
+    position: relative;
+    height: 67vh;
+    background: url('/images/equipo/fondo.jpg') no-repeat center -50px / cover;
+    overflow: hidden;
+
+    &__nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        bottom:0;
+        left:0;
+        width: 300px;
+        padding: 60px;
+
+        li {
+            @include trans;
+            margin-bottom: 10px;
+            line-height: 1.2;
+            cursor: pointer;
+
+            &:hover,
+            &.-active {
+                color: $red;
+            }
+
+            &.-inactive {
+                color: $white;
+            }
+        }
+    }
+
+    &__sections {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom: 0;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    &__section {
+        @include trans;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        background: $fadedRed;
+        padding: 60px 60px 60px 380px;
+        display: flex;
+        font-family: $altFont;
+        opacity: 0;
+        transform: translateY(-100%);
+
+        &.-active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        &__title {
+            color: $black;
+            font-family: $altFont;
+            font-size: 21px;
+            margin: 0 0 20px;
+
+            &:before {
+                content: '/';
+                margin-right: 10px;
+            }
+        }
+
+        &__maincol {
+            width: 20%;
+        }
+
+        &__secondarycol {
+            width: 60%;
+        }
+    }
+
+    &__list {
+
+        &--multicol {
+            columns: 3;
+        }
+
+        &__item {
+            font-size: 21px;
+            margin: 0 0 20px;
+            cursor: pointer;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__profile {
+        @include trans;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right:0;
+        left:0;
+        z-index: 5;
+        opacity: 0;
+        transform: translateY(-100%);
+
+        &.-open {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        &__close {
+            position: absolute;
+            right: 60px;
+            top:60px;
+            z-index: 5;
+            font-size: 24px;
+            background: none;
+            border: none;
+            width: 40px;
+            height:40px;
+            color: $white;
+
+            &:hover {
+                color: $red;
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+
+        &__types {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            bottom:0;
+            left:0;
+            width: 300px;
+            padding: 60px;
+
+            li {
+                @include trans;
+                margin-bottom: 10px;
+                line-height: 1.2;
+                opacity: 0;
+                position: absolute;
+                top: 60px;
+                left:60px;
+
+                &.-active {
+                    color: $white;
+                    opacity: 1;
+                }
+            }
+        }
+
+        &__person {
+            display: none;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right:0;
+            left:0;
+            overflow: hidden;
+
+            &.-active {
+                display: block;
+            }
+
+            &__img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right:0;
+                left:0;
+                overflow: hidden;
+
+                img {
+                    position: absolute;
+                    top:50%;
+                    left:0;
+                    width: 100%;
+                    transform: translateY(-35%);
+                }
+            }
+
+            &__item {
+                display: block;
+            }
+
+            &__skills {
+                list-style: circle;
+                padding-left: 20px;
+            }
+
+            &__name {
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            &__data {
+                position: absolute;
+                left:380px;
+                z-index: 2;
+                font-family: $altFont;
+                padding-top: 60px;
+
+                h3,h4 {
+                    margin: 0 0 10px;
+                }
+
+
+
+                &__block {
+                    margin-bottom: 30px;
+
+                    &--top {
+                        margin-bottom: 90px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

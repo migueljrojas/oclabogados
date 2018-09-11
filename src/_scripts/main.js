@@ -7,6 +7,8 @@ global.$ = global.jQuery = require('jquery');
 global._ = require('underscore');
 var Header = require('../_modules/header/header');
 var Slider = require('../_modules/slider/slider');
+var Areas = require('./areas');
+var Equipo = require('./equipo');
 
 $(function() {
     require('../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min');
@@ -14,4 +16,5 @@ $(function() {
 
     new Header();
     new Slider();
+    new Equipo();
 });

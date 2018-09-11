@@ -1,0 +1,143 @@
+.areas {
+    position: relative;
+    height: 63vh;
+    background: url('/images/home/slide7.jpg') no-repeat center center / cover;
+
+    &__nav {
+        height: 100%;
+        position: relative;
+        width: 28%;
+        background: $red;
+        padding: 60px;
+        font-family: $altFont;
+        z-index: 2;
+
+        &__links {
+            color: $white;
+
+            li {
+                @include trans;
+
+                display: block;
+                margin-bottom: 10px;
+                padding-bottom: 3px;
+                font-size: 21px;
+                position: relative;
+
+                &:before {
+                    @include trans;
+
+                    content: '';
+                    width: 0;
+                    height: 1px;
+                    background: $white;
+                    position: absolute;
+                    bottom: 0;
+                    left:0;
+                }
+
+                &:hover,
+                &.-active {
+                    cursor: pointer;
+                    font-weight: 600;
+
+                    &:before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &__pages{
+        height: 100%;
+        position: absolute;
+        width: 72%;
+        left:28%;
+        top:0;
+        overflow: hidden;
+    }
+
+    &__page {
+        @include trans;
+        position: absolute;
+        top:60px;
+        left:60px;
+        right:60px;
+        opacity: 0;
+
+        &:nth-child(1) {
+            transform: translateX(-100%);
+        }
+
+        &:nth-child(2) {
+            transform: translateX(100%);
+        }
+
+        &.-active {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        &__wrapper {
+            @include trans;
+            background: $fadedRed;
+            width: 50%;
+            position: absolute;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateX(-100%);
+            left:0;
+            top:0;
+
+            &.-active {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        &__nav {
+            @include trans;
+            background: none;
+            color: $red;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: calc(50% - 20px);
+            border:none;
+            opacity: 1;
+            pointer-events: all;
+            z-index: 5;
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+            &--next {
+                right:0;
+            }
+
+            &.-disabled {
+                color: $midGray;
+                opacity: .3;
+                pointer-events: none;
+            }
+        }
+
+        p, ul, dl {
+            font-size: 0.9em;
+        }
+
+        ul {
+            list-style: circle;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        dt {
+            float: left;
+            margin-right: 10px;
+        }
+    }
+}

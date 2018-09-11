@@ -1,0 +1,36 @@
+.contacto {
+    position: relative;
+    height: 63vh;
+    background: url('/images/home/contacto.jpg') no-repeat center center / cover;
+    font-family: $altFont;
+
+    &__wrapper {
+        @include padd;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        display: flex;
+    }
+
+    &__data {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 60%;
+        flex-wrap: wrap;
+        font-size: 21px;
+
+        a {
+            margin-bottom: 10px;
+            display: block;
+        }
+    }
+
+    &__people {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 40%;
+
+        p {
+            margin-bottom: 20px;
+        }
+    }
+}

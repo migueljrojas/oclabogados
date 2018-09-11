@@ -1,2 +1,31 @@
 header.header
-    
+    .header__col.header__col--logo
+        .header__logo
+            a(href="/")
+                img(src="/images/logo.png")
+    .header__col.header__col--nav
+        .header__nav
+            .header__nav__col
+                ul.header__nav__list
+                    li.header__nav__list__item
+                        a.header__nav__link(href="/areas-de-practica") Áreas de Práctica
+                    li.header__nav__list__item
+                        a.header__nav__link(href="/equipo") Abogados / Equipo
+            .header__nav__col
+                ul.header__nav__list
+                    li.header__nav__list__item
+                        a.header__nav__link(href="/nosotros") Nosotros
+                    li.header__nav__list__item
+                        a.header__nav__link(href="/temas-de-interes") Temas de Interés
+                    li.header__nav__list__item
+                        a.header__nav__link(href="/postulaciones") Postulaciones
+            .header__nav__col
+                ul.header__nav__list
+                    li.header__nav__list__item
+                        a.header__nav__link(href="/contacto") Contacto
+            .header__nav__col
+                ul.header__nav__language
+                    li.header__nav__language__selector EN
+                    li.header__nav__language__divider  /
+                    li.header__nav__language__selector.-active ES
+            

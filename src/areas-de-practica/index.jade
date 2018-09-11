@@ -1,0 +1,38 @@
+extends ../_layouts/base
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.areas
+        section.areas__nav
+            h1.section-title Áreas de práctica
+            ul.areas__nav__links
+                each item, index in site.data.areas
+                    li(data-area-target="page-#{index}")= item.title
+        section.areas__pages
+            each page, index in site.data.areas
+                .areas__page__wrapper(data-area-page="page-#{index}")
+                    .areas__page
+                        each block in page.pages[0]
+                            p!=block
+                    .areas__page
+                        if page.pages[1].par
+                            each p in page.pages[1].par
+                                p= p
+                        p Entre los principales servicios del área destacamos:
+                        ul.areas__page__servicios
+                            each item in page.pages[1].servicios
+                                li=item
+                        dl.areas__page__asociados
+                            each item in page.pages[1].asociados
+                                dt= item.titulo
+                                dd
+                                    a(href=item.link)= item.nombre
+                    button.areas__page__nav.areas__page__nav--prev
+                        i.material-icons keyboard_arrow_left
+                    button.areas__page__nav.areas__page__nav--next
+                        i.material-icons keyboard_arrow_right
+            
+            

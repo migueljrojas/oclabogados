@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -14667,6 +14667,8 @@ var Header = function() {
     var body = $('body');
     var menuOpen = $('.header__hamburguer');
     var menuClose = $('.header__nav__close');
+    var url = window.location.pathname;
+    var urlRegExp = new RegExp(url == '/' ? window.location.origin + '/?$' : url.replace(/\/$/,'') + '$');
 
     menuOpen.on('click', function(){
         header.addClass('-open');
@@ -14676,6 +14678,12 @@ var Header = function() {
     menuClose.on('click', function(){
         header.removeClass('-open');
         body.removeClass('-hideOverflow');
+    });
+
+    $('.header__nav__link').each(function(){
+        if(urlRegExp.test(this.href.replace(/\/$/,''))){
+            $(this).addClass('-active');
+        }
     });
 };
 
@@ -14702,6 +14710,128 @@ var Slider = function() {
 module.exports = Slider;
 
 },{}],7:[function(require,module,exports){
+'use strict';
+
+// Constructor
+var Areas = function() {
+    var context = $('.areas');
+
+    if (context) {
+        var areaPages = $('[data-area-page]');
+        var areaPageSelectors = $('[data-area-target]');
+        var nextPage = $('.areas__page__nav--next');
+        var prevPage = $('.areas__page__nav--prev');
+
+        function pagesInit() {
+            var activePage = $('.areas__page__wrapper.-active');
+            var pages = activePage.find('.areas__page');
+
+            pages.first().addClass('-active');
+            setTimeout(wrapperResize, 300);
+            prevPage.addClass('-disabled');
+        }
+
+        function wrapperResize() {
+            var activePage = $('.areas__page__wrapper.-active');
+            var activeContent = activePage.find('.areas__page.-active');
+            var activeContentHeight = activeContent.height();
+
+            activePage.css('height', activeContentHeight + 120);
+        }
+
+        nextPage.on('click', function(){
+            var activeContentPage = $('.areas__page.-active');
+            prevPage.removeClass('-disabled');
+            $(this).addClass('-disabled');
+            activeContentPage.removeClass('-active');
+            activeContentPage.siblings('.areas__page').addClass('-active');
+            wrapperResize();
+        });
+
+        prevPage.on('click', function(){
+            var activeContentPage = $('.areas__page.-active');
+            nextPage.removeClass('-disabled');
+            $(this).addClass('-disabled');
+            activeContentPage.removeClass('-active');
+            activeContentPage.siblings('.areas__page').addClass('-active');
+            wrapperResize();
+        });
+
+        areaPageSelectors.on('click', function() {
+            var $this = $(this);
+            var pageTarget = $this.data('area-target');
+
+            areaPageSelectors.removeClass('-active');
+            areaPages.removeClass('-active');
+            $this.addClass('-active');
+
+            areaPages.filter(function() {
+                return $(this).data('area-page') === pageTarget;
+            }).addClass('-active');
+
+            pagesInit();
+        });
+    }
+};
+
+module.exports = Areas;
+
+},{}],8:[function(require,module,exports){
+'use strict';
+
+// Constructor
+var Equipo = function() {
+    var context = $('.equipo');
+
+    if (context) {
+        var openLawyersSection = $('.equipo__nav__links--lawyers');
+        var openAdminSection = $('.equipo__nav__links--admin');
+        var lawyersSection = $('.equipo__section--lawyers');
+        var adminSection = $('.equipo__section--admin');
+        var profileTriggers = $('[data-person-id]');
+        var profileSection = $('.equipo__profile');
+        var closeProfile = $('.equipo__profile__close');
+
+        openLawyersSection.on('click', function() {
+            openAdminSection.addClass('-inactive');
+            openAdminSection.removeClass('-active');
+            adminSection.removeClass('-active');
+
+            $(this).addClass('-active');
+            lawyersSection.addClass('-active');
+        });
+
+        openAdminSection.on('click', function() {
+            openLawyersSection.addClass('-inactive');
+            openLawyersSection.removeClass('-active');
+            lawyersSection.removeClass('-active');
+
+            $(this).addClass('-active');
+            adminSection.addClass('-active');
+        });
+
+        profileTriggers.on('click', function() {
+            var $this = $(this);
+            var target = $this.data('person-id');
+            var profiles = $('[data-profile-id]');
+
+            profileSection.addClass('-open');
+            profiles.removeClass('-active');
+
+            profiles.filter(function() {
+                return $(this).data('profile-id') === target;
+            }).addClass('-active');
+        });
+
+        closeProfile.on('click', function() {
+            profileSection.removeClass('-open');
+        });
+    }
+};
+
+module.exports = Equipo;
+
+},{}],9:[function(require,module,exports){
 (function (global){
 // Main javascript entry point
 // Should handle bootstrapping/starting application
@@ -14712,6 +14842,8 @@ global.$ = global.jQuery = require('jquery');
 global._ = require('underscore');
 var Header = require('../_modules/header/header');
 var Slider = require('../_modules/slider/slider');
+var Areas = require('./areas');
+var Equipo = require('./equipo');
 
 $(function() {
     require('../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min');
@@ -14719,10 +14851,11 @@ $(function() {
 
     new Header();
     new Slider();
+    new Equipo();
 });
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min":1,"../../bower_components/slick-carousel/slick/slick":2,"../_modules/header/header":5,"../_modules/slider/slider":6,"jquery":3,"underscore":4}]},{},[7])
+},{"../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min":1,"../../bower_components/slick-carousel/slick/slick":2,"../_modules/header/header":5,"../_modules/slider/slider":6,"./areas":7,"./equipo":8,"jquery":3,"underscore":4}]},{},[9])
 
 //# sourceMappingURL=main.js.map

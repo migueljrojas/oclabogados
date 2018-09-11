@@ -1,0 +1,119 @@
+{
+    "abogados":{
+        "socios":[
+            "Javier Ovalle",
+            "Matías Ovalle",
+            "Álvaro Parra",
+            "María Alejandra Schibli"
+        ],
+        "asociados":[
+            "Valentina Acharán",
+            "Catalina Casas",
+            "Juan Ignacio Chamorro",
+            "Joaquín Erlbaum",
+            "Josefina Escobar",
+            "Maricarmen González",
+            "Javiera Moreno",
+            "Bárbara Morgan",
+            "Fernando Olavarría",
+            "Olivia Ovalle",
+            "María Jesús Pimentel ",
+            "Matías Ponce",
+            "Gerardo Ramírez",
+            "Juan Francisco Ready",
+            "Daniel Retamal",
+            "Jaime Rodríguez",
+            "Nicolás Ruedi",
+            "Macarena Waidele",
+            "Javiera Zamora"
+        ]
+    },
+    "admin":{
+        "gerencia":[
+            "María Paz Costa",
+            "Isabel Quiroz"
+        ],
+        "equipo":[
+            "Ricardo Araya",
+            "Claudia Rabí",
+            "Denisse Valdebenito",
+            "Claudia Soto",
+            "Carolina Sagredo",
+            "Patricio Naranjo",
+            "Mathias Donoso",
+            "Erica Cayunao"
+        ]
+    },
+    "profiles":[
+        {
+            "id":"abogado-socio-0",
+            "type":"abogado",
+            "slug":"javier-ovalle",
+            "name":"Javier Ovalle",
+            "role":"Socio",
+            "email":"javier.ovalle@ocl.cl",
+            "skills":[
+                "Estructuración de negocios e inversión",
+                "Reorganizaciones",
+                "Fusiones y adquisiciones",
+                "Litigios",
+                "Servicios Judiciales",
+                "Regulación Acuícola"
+            ],
+            "title":"Licenciado en Derecho",
+            "university":"Universidad de Chile",
+            "language":"Español e Inglés"
+        },
+        {
+            "id":"abogado-socio-1",
+            "type":"abogado",
+            "slug":"matias-ovalle",
+            "name":"Matías Ovalle",
+            "role":"Socio",
+            "email":"matias.ovalle@ocl.cl",
+            "skills":[
+                "Asesoría Corporativa y Comercial",
+                "Fusiones y adquisiciones",
+                "Reorganizaciones",
+                "Inversión extranjera",
+                "Representaciones ",
+                "Derecho Laboral"
+            ],
+            "title":"Licenciado en Derecho",
+            "university":"Universidad Diego Portales",
+            "language":"Español e Inglés"
+        },
+        {
+            "id":"abogado-socio-2",
+            "type":"abogado",
+            "slug":"alvaro-parra",
+            "name":"Álvaro Parra",
+            "role":"Socio",
+            "email":"alvaro.parra@ocl.cl",
+            "skills":[
+                "Derecho Tributario",
+                "Estructura de Negocios y  asesoría en proyectos de Inversión",
+                "Derecho Inmobiliario"
+            ],
+            "title":"Licenciado en Derecho",
+            "university":"P. Universidad Católica de Chile",
+            "language":"Español e Inglés"
+        },
+        {
+            "id":"abogado-socio-3",
+            "type":"abogado",
+            "slug":"alejandra-schibli",
+            "name":"Alejandra Schibli",
+            "role":"Socia",
+            "email":"alejandra.schibli@ocl.cl",
+            "skills":[
+                "Auditorías legales de riesgo y programas de seguros",
+                "Diseño y gestión de procesos de licitación de programas de seguros nacionales y regionales",
+                "Asesoría en procesos de liquidación de siniestros"
+            ],
+            "title":"Licenciada en Derecho",
+            "university":"Universidad Diego Portales",
+            "language":"Español e Inglés"
+        }
+    ]
+}
