@@ -1,14 +1,23 @@
 .contacto {
     position: relative;
-    height: 63vh;
     background: url('/images/home/contacto.jpg') no-repeat center center / cover;
     font-family: $altFont;
 
+    @include mq(md) {
+        height: 63vh;
+        min-height: 480px;
+    }
+
     &__wrapper {
         @include padd;
-        padding-left: 50px!important;
-        padding-right: 50px!important;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
         display: flex;
+
+        @include mq(md) {
+            padding-left: 50px!important;
+            padding-right: 50px!important;
+        }
     }
 
     &__data {
@@ -16,10 +25,14 @@
         justify-content: flex-end;
         flex-basis: 60%;
         flex-wrap: wrap;
-        font-size: 21px;
+        font-size: 14px;
+        padding-right: 15px;
+
+        @include mq(md) {
+            font-size: 21px;
+        }
 
         a {
-            margin-bottom: 10px;
             display: block;
         }
     }
@@ -28,6 +41,11 @@
         display: flex;
         justify-content: flex-end;
         flex-basis: 40%;
+        font-size: 14px;
+
+        @include mq(md) {
+            font-size: 21px;
+        }
 
         p {
             margin-bottom: 20px;

@@ -35,32 +35,43 @@ block content
                             li.equipo__list__item(data-person-id="admin-equipo-#{index}")= person
         section.equipo__profile
             ul.equipo__profile__types
-                li.section-title.-active Abogados
+                li.section-title Abogados
                 li.section-title Equipo Administrativo
             button.equipo__profile__close
                 i.material-icons close
+                button.equipo__profile__pager.equipo__profile__pager--prev
+                button.equipo__profile__pager.equipo__profile__pager--next
             each profile, index in site.data.equipo.profiles
-                .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
-                    .equipo__profile__person__img
-                        img(src="/images/equipo/abogados/#{profile.slug}.jpg")
-                    .equipo__profile__person__data
-                        .equipo__profile__person__data__block.equipo__profile__person__data__block--top
-                            h3.equipo__profile__person__name=profile.name
-                            span.equipo__profile__person__item=profile.role
-                            span.equipo__profile__person__item=profile.email
-                        .equipo__profile__person__data__block
-                            h4 Áreas de ejercicio
-                            ul.equipo__profile__person__skills
-                                each skill in profile.skills
-                                    li=skill
-                        .equipo__profile__person__data__block
-                            span.equipo__profile__person__item=profile.title
-                            span.equipo__profile__person__item=profile.university
-                        .equipo__profile__person__data__block
-                            h4 Idiomas
-                            span.equipo__profile__person__item=profile.language
-                            a.equipo__profile__person__cv(href="/docs/cvs/#{profile.slug}.pdf", target="_blank")
-                                | CV [
-                                i.material-icons arrow_downward
-                                | ]
-                
+                if profile.type == 'abogado'
+                    .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
+                        .equipo__profile__person__img
+                            img(src="/images/equipo/abogados/#{profile.slug}.jpg")
+                        .equipo__profile__person__data
+                            .equipo__profile__person__data__block.equipo__profile__person__data__block--top
+                                h3.equipo__profile__person__name=profile.name
+                                span.equipo__profile__person__role=profile.role
+                                span.equipo__profile__person__email=profile.email
+                            .equipo__profile__person__data__block
+                                h4 Áreas de ejercicio
+                                ul.equipo__profile__person__skills
+                                    each skill in profile.skills
+                                        li=skill
+                            .equipo__profile__person__data__block
+                                span.equipo__profile__person__item=profile.title
+                                span.equipo__profile__person__item=profile.university
+                            .equipo__profile__person__data__block
+                                h4 Idiomas
+                                span.equipo__profile__person__item=profile.language
+                                a.equipo__profile__person__cv(href="/docs/cvs/#{profile.slug}.pdf", target="_blank")
+                                    | CV [
+                                    i.material-icons arrow_downward
+                                    | ]
+                if profile.type == 'admin'
+                    .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
+                        .equipo__profile__person__img
+                            img(src="/images/equipo/admin/#{profile.slug}.jpg")
+                        .equipo__profile__person__data
+                            .equipo__profile__person__data__block.equipo__profile__person__data__block--top
+                                h3.equipo__profile__person__name=profile.name
+                                span.equipo__profile__person__item=profile.role
+                                span.equipo__profile__person__item=profile.email

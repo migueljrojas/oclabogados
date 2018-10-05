@@ -5,4 +5,50 @@ block config
   - var baseUrl = '../'
 
 block content
-  p postulaciones page
+    main.postulaciones
+        .postulaciones__img
+        .postulaciones__intro
+            h1.postulaciones__title ¿Quieres formar parte de nuestro equipo de abogados?
+        form.postulaciones__form
+            p.postulaciones__form__intro Por favor completa el siguiente formulario con tus datos personales y experiencia laboral, para considerarlo en nuestros futuros procesos de contratación.
+            .postulaciones__form__wrapper
+                .postulaciones__form__col
+                    h3.postulaciones__form__col__title INFORMACIÓN PERSONAL
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Nombre
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Apellido
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Apellido
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Teléfono de Contacto
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        label.postulaciones__form__label E-mail
+                        input.postulaciones__form__input(type="email")
+                        
+                .postulaciones__form__col
+                    h3.postulaciones__form__col__title ANTECEDENTES ACADÉMICOS
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Universidad
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Titulo
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Año Titulación / Indique si aun no se titula
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        label.postulaciones__form__label Nota Examen de Grado
+                        input.postulaciones__form__input(type="text")
+                    .postulaciones__form__group
+                        span.postulaciones__form__label Juramento
+                        .postulaciones__form__radio
+                            input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="si", name="juramento")
+                            label.postulaciones__form__label(for="si") Si
+                        .postulaciones__form__radio
+                            input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="no", name="juramento")
+                            label.postulaciones__form__label(for="no") No

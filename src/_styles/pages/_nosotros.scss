@@ -1,25 +1,42 @@
 .nosotros {
     position: relative;
-    height: 63vh;
+    height: auto;
+
+    @include mq(md) {
+        height: 63vh;
+    }
 
     &__text {
-        height: 60%;
         background: $fadedRed;
-        display: flex;
-        padding: 50px;
+        padding: 20px;
+
+        @include mq(md) {
+            display: flex;
+            padding: 50px;
+        }
 
         &__main {
             font-family: $quoteFont;
-            font-size: 2vw;
+            font-size: 5vw;
             line-height: 1.5;
-            margin: 0;
+            margin: 0 0 20px;
+
+            @include mq(md) {
+                font-size: 2.5vw;
+                margin: 0;
+                flex-basis: 28%;
+            }
         }
 
         &__content {
             flex-basis: 26%;
-            padding-left: 50px;
-            font-size: 18px;
+            padding-left: 0;
+            font-size: 14px;
             line-height: 1.4;
+
+            @include mq(md) {
+                padding-left: 50px;
+            }
         }
     }
 }

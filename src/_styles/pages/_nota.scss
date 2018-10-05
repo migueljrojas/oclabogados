@@ -1,0 +1,111 @@
+.nota {
+
+    @include mq(md) {
+        display: flex;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    &__col {
+        &--image {
+
+            @include mq(md) {
+                width: 30%;
+            }
+        }
+
+        &--content {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            @include mq(md) {
+                width: 70%;
+                padding-left: 30px;
+                padding-right: 60px;
+            }
+
+            &__heading {
+                padding-bottom: 60px;
+            }
+
+            &__info {
+                width: 100%;
+                padding: 10px 0;
+                line-height: 1;
+                font-family: $altFont;
+                text-transform: uppercase;
+
+                @include mq(md) {
+                    width: 40%;
+                }
+            }
+
+            &__title {
+                width: 100%;
+                font-family: $quoteFont;
+                margin: 0;
+                font-size: 36px;
+                line-height: 1.4;
+                color: $black;
+
+                @include mq(md) {
+                    width: 40%;
+                }
+
+                &:after {
+                    content: '/';
+                    margin-left: 10px;
+                }
+            }
+
+            &__main {
+                display: flex;
+            }
+
+            &__text {
+                width: 60%;
+                padding-right: 15px;
+                columns: 1;
+                column-gap: 30px;
+
+                @include mq(md) {
+                    width: 70%;
+                    columns: 2;
+                    padding-right: 60px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 1.6;
+                    margin-bottom: 30px;
+                }
+            }
+
+            &__sidebar {
+                width: 30%;
+                padding-left: 15px;
+                border-left: 1px solid $lightGray;
+                position: sticky;
+                top: 80px;
+
+                @include mq(md) {
+                    width: 20%;
+                    position: static;
+                }
+            }
+        }
+    }
+
+    &__tips {
+        li {
+            margin-bottom: 20px;
+
+            strong {
+                margin-right: 10px;
+            }
+        }
+    }
+}

@@ -2,9 +2,14 @@
     text-transform: uppercase;
     color: $black;
     font-family: $altFont;
-    letter-spacing: 2.4px;
-    font-size: 28px;
+    letter-spacing: 2.2px;
+    font-size: 4vw;
     margin: 0 0 20px;
+    font-weight: 200;
+
+    @include mq(md){
+        font-size: 1.65vw;
+    }
 
     &:before {
         content: '/';
@@ -14,6 +19,7 @@
 
 .home {
     height: 63vh;
+    min-height: 480px;
 
     &__hero {
         position: relative;
@@ -39,8 +45,15 @@
         }
 
         &__img {
-            height: 63vh;
             position: relative;
+            height: 37.8vh;
+            margin-bottom: 25.2vh;
+            overflow: hidden;
+
+            @include mq(md) {
+                margin-bottom: 0;
+                height: 63vh;
+            }
 
             img {
                 position: absolute;
@@ -55,18 +68,30 @@
             @include trans;
             padding: 30px;
             position: absolute;
-            top:0;
+            top:65%;
             bottom:0;
             left:0;
-            width: 28%;
+            right: 0;
             background: $fadedRed;
-            transform: translateX(-100%);
+            pointer-events: none;
+
+            @include mq(md) {
+                width: 28%;
+                min-width: 380px;
+                right: auto;
+                top:0;
+                transform: translateX(-100%);
+            }
 
             &__text {
                 font-family: $quoteFont;
-                font-size: 2.4vw;
+                font-size: 5vw;
                 line-height: 1.5;
                 margin: 0;
+
+                @include mq(md) {
+                    font-size: 2.38vw;
+                }
             }
         }
     }

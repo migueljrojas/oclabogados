@@ -2,21 +2,61 @@
 
     $h: &;
 
-    height: 24vh;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 0;
+    height: 60px;
+    position: fixed;
+    padding: 10px 0;
+    z-index: 1000;
+    background: $white;
+
+    @include mq(md) {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        height: 24vh;
+        min-height: 200px;
+        padding: 50px 0;
+    }
 
     &__col {
-        width: 50%;
-        flex-basis: 50%;
-        padding: 0 50px;
+        width: 100%;
+        flex-basis: 100%;
+        padding: 0 30px;
+
+
+        &--logo {
+
+            @include mq(md) {
+                width: 30%;
+                flex-basis: 30%;
+                padding: 0 50px;
+            }
+        }
+
+        &--nav {
+            position: absolute;
+            top: 60px;
+            padding: 0;
+            pointer-events: none;
+
+            @include mq(md) {
+                width: 60%;
+                flex-basis: 60%;
+                position: static;
+                padding: 0 50px;
+                pointer-events: all;
+            }
+        }
     }
 
     &__logo {
-        width: 60%;
+        padding-top: 10px;
+        width: 80%;
         min-width: 150px;
+
+        @include mq(md) {
+            padding-top: 0;
+            width: 100%;
+        }
 
         img {
             width: 100%;
@@ -24,16 +64,48 @@
     }
 
     &__nav {
+        @include trans;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         font-family: $altFont;
+        background: rgba(255,255,255,.8);
+        padding: 20px;
+        flex-wrap: wrap;
+        transform: translateX(-100%);
+        opacity: 0;
+        pointer-events: none;
+
+        @include mq(md) {
+            background: none;
+            padding: 20px;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            transform: translateX(0);
+            opacity: 1;
+            pointer-events: all;
+        }
 
         &__col {
-            clear: left;
-            flex-basis: 25%;
+            flex-basis: 100%;
             display: flex;
             max-width: 200px;
             padding-left: 40px;
+
+            @include mq(md) {
+                flex-basis: 25%;
+            }
+
+            &:first-child {
+                @include mq(md) {
+                    flex-basis: 30%;
+                }
+            }
+
+            &:last-child {
+                @include mq(md) {
+                    flex-basis: 20%;
+                }
+            }
         }
 
         &__list {
@@ -45,9 +117,12 @@
         &__link {
             color: $black;
 
+            @include mq(md) {
+                font-size: 14px;
+            }
+
             &:hover,
             &.-active {
-                font-weight: 600;
                 color: $red;
             }
         }
@@ -55,6 +130,10 @@
         &__language {
             display: flex;
             font-weight: 600;
+
+            @include mq(md) {
+                font-size: 14px;
+            }
 
             &__divider {
                 padding: 0 5px;
@@ -74,8 +153,12 @@
         height: 25px;
         margin: auto;
         position: absolute;
-        right: 32px;
-        top: 30px;
+        right: 30px;
+        top: 20px;
+
+        @include mq(md) {
+            display: none;
+        }
 
         span {
             background-color: $mainColor;
@@ -114,8 +197,22 @@
             }
         }
 
-        #{$h}__nav {
+        #{$h}__col--nav {
+            pointer-events: all;
+        }
 
+        #{$h}__nav {
+            transform: translateX(0);
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+
+    & + main {
+        padding-top: 60px;
+
+        @include mq(md) {
+            padding-top: 0;
         }
     }
 }

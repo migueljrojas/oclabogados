@@ -16,5 +16,6 @@ $(function() {
 
     new Header();
     new Slider();
+    new Areas();
     new Equipo();
 });

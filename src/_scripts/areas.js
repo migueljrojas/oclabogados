@@ -49,6 +49,8 @@ var Areas = function() {
             var $this = $(this);
             var pageTarget = $this.data('area-target');
 
+            console.log($this);
+
             areaPageSelectors.removeClass('-active');
             areaPages.removeClass('-active');
             $this.addClass('-active');

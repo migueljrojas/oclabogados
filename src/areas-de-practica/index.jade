@@ -29,7 +29,12 @@ block content
                             each item in page.pages[1].asociados
                                 dt= item.titulo
                                 dd
-                                    a(href=item.link)= item.nombre
+                                    a(href="/docs/cvs/#{item.link}.pdf")
+                                        span= item.nombre  
+                                        | CV [
+                                        i.material-icons arrow_downward
+                                        | ]
+                                        
                     button.areas__page__nav.areas__page__nav--prev
                         i.material-icons keyboard_arrow_left
                     button.areas__page__nav.areas__page__nav--next

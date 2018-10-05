@@ -1,12 +1,12 @@
 {
-    "abogados":{
-        "socios":[
+    "abogados": {
+        "socios": [
             "Javier Ovalle",
             "Matías Ovalle",
             "Álvaro Parra",
             "María Alejandra Schibli"
         ],
-        "asociados":[
+        "asociados": [
             "Valentina Acharán",
             "Catalina Casas",
             "Juan Ignacio Chamorro",
@@ -17,7 +17,7 @@
             "Bárbara Morgan",
             "Fernando Olavarría",
             "Olivia Ovalle",
-            "María Jesús Pimentel ",
+            "María Jesús Pimentel",
             "Matías Ponce",
             "Gerardo Ramírez",
             "Juan Francisco Ready",
@@ -28,12 +28,12 @@
             "Javiera Zamora"
         ]
     },
-    "admin":{
-        "gerencia":[
+    "admin": {
+        "gerencia": [
             "María Paz Costa",
             "Isabel Quiroz"
         ],
-        "equipo":[
+        "equipo": [
             "Ricardo Araya",
             "Claudia Rabí",
             "Denisse Valdebenito",
@@ -44,15 +44,14 @@
             "Erica Cayunao"
         ]
     },
-    "profiles":[
-        {
+    "profiles": [{
             "id":"abogado-socio-0",
             "type":"abogado",
             "slug":"javier-ovalle",
             "name":"Javier Ovalle",
             "role":"Socio",
             "email":"javier.ovalle@ocl.cl",
-            "skills":[
+            "skills": [
                 "Estructuración de negocios e inversión",
                 "Reorganizaciones",
                 "Fusiones y adquisiciones",
@@ -71,12 +70,12 @@
             "name":"Matías Ovalle",
             "role":"Socio",
             "email":"matias.ovalle@ocl.cl",
-            "skills":[
+            "skills": [
                 "Asesoría Corporativa y Comercial",
                 "Fusiones y adquisiciones",
                 "Reorganizaciones",
                 "Inversión extranjera",
-                "Representaciones ",
+                "Representaciones",
                 "Derecho Laboral"
             ],
             "title":"Licenciado en Derecho",
@@ -90,9 +89,9 @@
             "name":"Álvaro Parra",
             "role":"Socio",
             "email":"alvaro.parra@ocl.cl",
-            "skills":[
+            "skills": [
                 "Derecho Tributario",
-                "Estructura de Negocios y  asesoría en proyectos de Inversión",
+                "Estructura de Negocios y asesoría en proyectos de Inversión",
                 "Derecho Inmobiliario"
             ],
             "title":"Licenciado en Derecho",
@@ -106,7 +105,7 @@
             "name":"Alejandra Schibli",
             "role":"Socia",
             "email":"alejandra.schibli@ocl.cl",
-            "skills":[
+            "skills": [
                 "Auditorías legales de riesgo y programas de seguros",
                 "Diseño y gestión de procesos de licitación de programas de seguros nacionales y regionales",
                 "Asesoría en procesos de liquidación de siniestros"
@@ -119,12 +118,12 @@
             "id":"abogado-asociado-0",
             "type":"abogado",
             "slug":"valentina-acharan",
-            "name":" Valentina  Acharán",
+            "name":"Valentina Acharán",
             "role":"Asociada",
             "email":"valentina.acharan@ocl.cl",
-            "skills":[
-                "Asesoría  Corporativa  y  Comercial ",
-                "derecho maritimo",
+            "skills": [
+                "Asesoría Corporativa y Comercial",
+                "derecho maritimo"
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad De los Andes",
@@ -133,291 +132,370 @@
         {
             "id":"abogado-asociado-1",
             "type":"abogado",
-            "slug":" Catalina  Casas",
-            "name":"  Catalina  Casas ",
+            "slug":"catalina-casas",
+            "name":"Catalina Casas",
             "role":"Asociada",
             "email":"catalina.casas@ocl.cl",
-            "skills":[
-                "Arbitrajes ",
-                "Litigios  Civiles  y  Comerciales",
-                "Derecho  del  Consumidor   "
+            "skills": [
+                "Arbitrajes",
+                "Litigios Civiles y Comerciales",
+                "Derecho del Consumidor"
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad Diego Portales",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-2",
             "type":"abogado",
-            "slug":"Juan  Ignacio  Chamorro",
-            "name":"Juan  Ignacio  Chamorro ",
-            "role":"Asociado  Senior",
+            "slug":"juan-ignacio-chamorro",
+            "name":"Juan Ignacio Chamorro",
+            "role":"Asociado Senior",
             "email":"Juan.chamorro@ocl.cl",
-            "skills":[
-                "Relaciones  Laborales",
-                "Asesoría  Migratoria"
-                "egociaciones  Colectivas"
-                "Seguridad  Social"
+            "skills": [
+                "Relaciones Laborales",
+                "Asesoría Migratoria",
+                "egociaciones Colectivas",
+                "Seguridad Social"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Universidad  de  Chile",
+            "university":"Universidad de Chile",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-3",
             "type":"abogado",
-            "slug":"joaquín  Erlbaun",
-            "name":"Joaquín  Erlbaun",
-            "role":"Asociado  Senior",
+            "slug":"joaquin-erlbaum",
+            "name":"Joaquín Erlbaum",
+            "role":"Asociado Senior",
             "email":"joaquin.erlbaum@ocl.cl",
-            "skills":[
-                "litigios  y  Reclamaciones  Tributarias ",
+            "skills": [
+                "litigios y Reclamaciones Tributarias"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Pontificia  Universidad  Católica  de  Chile",
+            "university":"Pontificia Universidad Católica de Chile",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-4",
             "type":"abogado",
-            "slug":"  Josefina  Escobar ",
-            "name":"  Josefina  Escobar ",
-            "role":"Directora  de  Área  Litigación ",
+            "slug":"josefina-escobar",
+            "name":"Josefina Escobar",
+            "role":"Directora de Área Litigación",
             "email":"josefina.escobar@ocl.cl",
-            "skills":[
-                "Arbitrajes ",
-                "Litigios  Civiles  y  Comerciales  de  alta  complejidad"
-                "Derecho  Regulatorio  y  Gobierno"
-                "Acciones  Constitucionales"
-                "Derecho  del  Consumidor"
+            "skills": [
+                "Arbitrajes",
+                "Litigios Civiles y Comerciales de alta complejidad",
+                "Derecho Regulatorio y Gobierno",
+                "Acciones Constitucionales",
+                "Derecho del Consumidor"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  de  Chile ",
+            "university":"Universidad de Chile",
             "language":"Español, Inglés y Frances"
-        }
+        },
         {
             "id":"abogado-asociado-5",
             "type":"abogado",
-            "slug":"  Maricarmen  González  ",
-            "name":"  Maricarmen  González  ",
-            "role":"Directora  de  Área  Derecho  Inmobiliario ",
+            "slug":"maricarmen-gonzalez",
+            "name":"Maricarmen González",
+            "role":"Directora de Área Derecho Inmobiliario",
             "email":"Maricarmen.gonzalez@ocl.cl",
-            "skills":[
-                "Inmobiliario/Desarrollo  de  Proyectos "
-                "Construcción  "
+            "skills": [
+                "Inmobiliario/Desarrollo de Proyectos",
+                "Construcción"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  de  Chile ",
+            "university":"Universidad de Chile",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-6",
             "type":"abogado",
-            "slug":" Javiera  Moreno",
-            "name":" Javiera  Moreno",
-            "role":"Asociada ",
+            "slug":"javiera-moreno",
+            "name":"Javiera Moreno",
+            "role":"Asociada",
             "email":"Javiera.Moreno@ocl.cl",
-            "skills":[
-                "Arbitrajes "
-                "litigios  Civiles  y  Comerciales"
-                "Derecho  del  Consumidor    "
+            "skills": [
+                "Arbitrajes",
+                "litigios Civiles y Comerciales",
+                "Derecho del Consumidor"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  de  Chile ",
+            "university":"Universidad de Chile",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-7",
             "type":"abogado",
-            "slug":"  Bárbara  Morgan  ",
-            "name":"  Bárbara  Morgan  ",
-            "role":"Directora  de  Área  Derecho  Corporativo ",
+            "slug":"barbara-morgan",
+            "name":"Bárbara Morgan",
+            "role":"Directora de Área Derecho Corporativo",
             "email":"Barbara.Morgan@ocl.cl",
-            "skills":[
-                "Asesoría  Corporativa  y  Comercial   "
-                "Fusiones  y  Adquisiciones "
-                "Reorganizaciones    "
+            "skills": [
+                "Asesoría Corporativa y Comercial",
+                "Fusiones y Adquisiciones",
+                "Reorganizaciones"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  Diego  Portales   ",
+            "university":"Universidad Diego Portales",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-8",
             "type":"abogado",
-            "slug":"  Fernando  Olavarría",
-            "name":"  Fernando  Olavarría",
-            "role":"Asociado  ",
+            "slug":"fernando-olavarria",
+            "name":"Fernando Olavarría",
+            "role":"Asociado",
             "email":"Fernando.olavarria@ocl.cl",
-            "skills":[
-                "Asesoría  Corporativa  y  Comercial"
+            "skills": [
+                "Asesoría Corporativa y Comercial"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  Adolfo  Ibáñez",
+            "university":"Universidad Adolfo Ibáñez",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-9",
             "type":"abogado",
-            "slug":" Olivia  Ovalle ",
-            "name":" Olivia  Ovalle",
-            "role":"Asociada  ",
+            "slug":"olivia-ovalle",
+            "name":"Olivia Ovalle",
+            "role":"Asociada",
             "email":"olivia.ovalle@ocl.cl",
-            "skills":[
-                "Derecho  de  Seguros "
-                "Asesoría  en  procesos  de  licitación  de  programas  de  seguros  nacionales  y  regionales."
-                "Asesoría  en  análisis  de  riesgo  respecto  de  contratos,  análisis  y  redacción  de  cláusulas  relativas  a  seguros. "
+            "skills": [
+                "Derecho de Seguros",
+                "Asesoría en procesos de licitación de programas de seguros nacionales y regionales.",
+                "Asesoría en análisis de riesgo respecto de contratos, análisis y redacción de cláusulas relativas a seguros."
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  Adolfo  Ibáñez",
+            "university":"Universidad Adolfo Ibáñez",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-10",
             "type":"abogado",
-            "slug":" María  Jesús  Pimentel ",
-            "name":" María  Jesús  Pimentel ",
-            "role":"Asociada  ",
+            "slug":"maria-jesus-pimentel",
+            "name":"María Jesús Pimentel",
+            "role":"Asociada",
             "email":"mariajesus.pimentel@ocl.cl",
-            "skills":[
-                " Asesoría  Laboral  y  Migratoria  "
+            "skills": [
+                "Asesoría Laboral y Migratoria"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  Adolfo  Ibáñez",
+            "university":"Universidad Adolfo Ibáñez",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-11",
             "type":"abogado",
-            "slug":"  Matías  Ponce ",
-            "name":"  Matías  Ponce ",
+            "slug":"matias-ponce",
+            "name":"Matías Ponce",
             "role":"Asociado",
             "email":"matias.ponce@ocl.cl",
-            "skills":[
-                "Derecho  Regulatorio  y  de  Gobierno"
-                "Asesoría  Corporativa,  con  especialización  en  corporaciones  sin  fines  de  lucro."
-                "Regulación  educacional"
-                "Derecho  del  Consumidor "
+            "skills": [
+                "Derecho Regulatorio y de Gobierno",
+                "Asesoría Corporativa, con especialización en corporaciones sin fines de lucro.",
+                "Regulación educacional",
+                "Derecho del Consumidor"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Universidad  de  Chile",
+            "university":"Universidad de Chile",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-12",
             "type":"abogado",
-            "slug":" Gerardo  Ramírez  ",
-            "name":" Gerardo  Ramírez  ",
-            "role":"Asociado  Senior ",
+            "slug":"gerardo-ramirez",
+            "name":"Gerardo Ramírez",
+            "role":"Asociado Senior",
             "email":"gerardo.ramirez@ocl.cl",
-            "skills":[
-                "Derecho  Administrativo "
-                "Derecho  Regulatorio  y  de  Gobierno "
-                "Acciones  Constitucionales "
-                "Asesoría  Legislativa   "
-                "Regulación  Acuícola  "
+            "skills": [
+                "Derecho Administrativo",
+                "Derecho Regulatorio y de Gobierno",
+                "Acciones Constitucionales",
+                "Asesoría Legislativa ",
+                "Regulación Acuícola"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Universidad  de  Chile ",
+            "university":"Universidad de Chile",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-13",
             "type":"abogado",
-            "slug":"Juan  Francisco  Ready",
-            "name":"  Juan  Francisco  Ready ",
-            "role":"Asociado  Senior ",
+            "slug":"juan-francisco-ready",
+            "name":"Juan Francisco Ready",
+            "role":"Asociado Senior",
             "email":"juan.ready@ocl.cl",
-            "skills":[
-                "Relaciones  Laborales  "
-                "Asesoría  Migratoria  "
-                "Negociaciones  Colectivas  "
-                "Litigación  Laboral  y  Civil "
-                "Procedimientos  de  Liquidación  Concursal  Voluntaria  y  Forzosas"
+            "skills": [
+                "Relaciones Laborales",
+                "Asesoría Migratoria",
+                "Negociaciones Colectivas",
+                "Litigación Laboral y Civil",
+                "Procedimientos de Liquidación Concursal Voluntaria y Forzosas"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Universidad  de  Chile ",
+            "university":"Universidad de Chile",
             "language":"Español e Inglés"
-        }
+        },
         {
             "id":"abogado-asociado-14",
             "type":"abogado",
-            "slug":" Daniel  Retamal ",
-            "name":" Daniel  Retamal ",
+            "slug":"daniel-retamal",
+            "name":"Daniel Retamal",
             "role":"Asociado",
             "email":"daniel.retamel@ocl.cl",
-            "skills":[
-                "Regulación  Acuícola    "
-                "Regulación  Pesquera    "
-                "Derecho  Administrativo   "
-                "Asesorías  Regulatorias   "
-                "Litigación "
+            "skills": [
+                "Regulación Acuícola ",
+                "Regulación Pesquera ",
+                "Derecho Administrativo ",
+                "Asesorías Regulatorias ",
+                "Litigación"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Universidad  Austral  ",
+            "university":"Universidad Austral",
             "language":"Español, Ingles y portuguez"
-        }
+        },
         {
             "id":"abogado-asociado-15",
             "type":"abogado",
-            "slug":" Jaime  Rodríguez  ",
-            "name":" Jaime  Rodríguez  ",
+            "slug":"jaime-rodriguez",
+            "name":"Jaime Rodríguez",
             "role":"Asociado",
             "email":"jaime.rodriguez@ocl.cl",
-            "skills":[
-                "Derecho  Tributario "
+            "skills": [
+                "Derecho Tributario"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Pontificia  Universidad  Católica  de  Chile  ",
-            "language":"Español e ingles "
-        }
+            "university":"Pontificia Universidad Católica de Chile",
+            "language":"Español e ingles"
+        },
         {
             "id":"abogado-asociado-16",
             "type":"abogado",
-            "slug":" Nicolás  Ruedi ",
-            "name":" Nicolás  Ruedi ",
-            "role":"Asociado  Senior ",
+            "slug":"nicolas-ruedi",
+            "name":"Nicolás Ruedi",
+            "role":"Asociado Senior",
             "email":"nicolas.ruedi@ocl.cl",
-            "skills":[
-                "Derecho  Tributario "
-                "Auditorías  de  riesgo  y  contratos  de  seguro "
-                "Asesoría  en  procesos  de  licitación  de  programas  de  seguros  nacionales  y  regionales "
-                "Asesoría  en  procesos  de  liquidación  de  siniestros,  impugnación  de  informes  desfavorables  y  negociación"
+            "skills": [
+                "Derecho Tributario",
+                "Auditorías de riesgo y contratos de seguro",
+                "Asesoría en procesos de licitación de programas de seguros nacionales y regionales",
+                "Asesoría en procesos de liquidación de siniestros, impugnación de informes desfavorables y negociación"
             ],
             "title":"Licenciado en Derecho",
-            "university":"Universidad  Adolfo  Ibáñez",
-            "language":"Español e ingles "
-        }
+            "university":"Universidad Adolfo Ibáñez",
+            "language":"Español e ingles"
+        },
         {
             "id":"abogado-asociado-17",
             "type":"abogado",
-            "slug":"  Macarena  Waidele ",
-            "name":"  Macarena  Waidele ",
+            "slug":"macarena-waidele",
+            "name":"Macarena Waidele",
             "role":"Asociada",
             "email":"macarena.waidele@ocl.cl",
-            "skills":[
-                "sesoría  Corporativa  y  Comercial "
+            "skills": [
+                "sesoría Corporativa y Comercial"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  Adolfo  Ibáñez",
-            "language":"Español e ingles "
-        }
+            "university":"Universidad Adolfo Ibáñez",
+            "language":"Español e ingles"
+        },
         {
             "id":"abogado-asociado-18",
             "type":"abogado",
-            "slug":"   Javiera  Zamora  ",
-            "name":"  Javiera  Zamora   ",
+            "slug":"javiera-zamora",
+            "name":"Javiera Zamora ",
             "role":"Asociada",
             "email":"javiera.zamora@ocl.cl",
-            "skills":[
-                "Inmobiliario/Desarrollo  de  Proyectos  "
-                "Derecho  Medioambiental "
-                "Recursos  Naturales "
+            "skills": [
+                "Inmobiliario/Desarrollo de Proyectos",
+                "Derecho Medioambiental",
+                "Recursos Naturales"
             ],
             "title":"Licenciada en Derecho",
-            "university":"Universidad  Católica  de  Chile  ",
-            "language":"Español e ingles "
+            "university":"Universidad Católica de Chile",
+            "language":"Español e ingles"
+        },
+        {
+            "id":"admin-gerente-0",
+            "type":"admin",
+            "slug":"maria-paz-costa",
+            "name":"María Paz Costa",
+            "role":"Gerenta de Finanzas",
+            "email":"mariapaz.costa@ocl.cl"
+        },
+        {
+            "id":"admin-gerente-1",
+            "type":"admin",
+            "slug":"isabel-quiroz",
+            "name":"Isabel Quiroz",
+            "role":"Gerenta de Administración y Recursos Humanos",
+            "email":"isabel.quiroz@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-0",
+            "type":"admin",
+            "slug":"ricardo-araya",
+            "name":"Ricardo Araya ",
+            "role":"Analista Senior Área Finanzas",
+            "email":"ricardo.araya@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-1",
+            "type":"admin",
+            "slug":"claudia-rabi",
+            "name":"Claudia Rabí",
+            "role":"Analista Facturación y Cobranza",
+            "email":"claudiarabi@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-2",
+            "type":"admin",
+            "slug":"denisse-valdebenito",
+            "name":"Denisse Valdebenito",
+            "role":"Secretaria Recepcionista",
+            "email":"denisse.valdebenito@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-3",
+            "type":"admin",
+            "slug":"claudia-soto",
+            "name":"Claudia Soto",
+            "role":"Secretaria",
+            "email":"claudia.soto@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-4",
+            "type":"admin",
+            "slug":"carolina-sagredo",
+            "name":"Carolina Sagredo",
+            "role":"Secretaria",
+            "email":"carolina.sagredo@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-5",
+            "type":"admin",
+            "slug":"patricio-naranjo",
+            "name":"Patricio Naranjo ",
+            "role":"Asistente Administrativo",
+            "email":"patricio.naranjo@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-6",
+            "type":"admin",
+            "slug":"mathias-donoso",
+            "name":"Mathias Donoso",
+            "role":"Asistente Administrativo",
+            "email":"mathias.donoso@ocl.cl"
+        },
+        {
+            "id":"admin-equipo-7",
+            "type":"admin",
+            "slug":"erica-cayunao",
+            "name":"Erica Cayunao",
+            "role":"Asistente de cocina",
+            "email":"erica.cayunao@ocl.cl"
         }
-
     ]
 }

@@ -16,12 +16,12 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Matías Ovalle",
-                        "link":"#"
+                        "link":"matias-ovalle"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Bárbara Morgan",
-                        "link":"#"
+                        "link":"barbara-morgan"
                     }
                 ]
             }
@@ -47,12 +47,12 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Javier Ovalle",
-                        "link":"#"
+                        "link":"javier-ovalle"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Josefina Escobar",
-                        "link":"#"
+                        "link":"josefina-escobar"
                     }
                 ]
             }
@@ -78,12 +78,12 @@
                     {
                         "titulo":"Socia",
                         "nombre":"Alejandra Schibli",
-                        "link":"#"
+                        "link":"alejandra-schibli"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Nicolás Ruedi",
-                        "link":"#"
+                        "link":"nicolas-ruedi"
                     }
                 ]
             }
@@ -112,19 +112,19 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Álvaro Parra",
-                        "link":"#"
+                        "link":"alvaro-parra"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Joaquín Erlbaun",
-                        "link":"#"
+                        "link":"joaquin-erlbaum"
                     }
                 ]
             }
         ]
     },
     {
-        "title":"Derecho Labiral y Migratorio",
+        "title":"Derecho Laboral y Migratorio",
         "pages":[
             [
                 "Esta área presta asesoría en forma directa y permanente en materias laborales, previsionales y migratorias a empresas de las más variadas actividades productivas.",
@@ -143,12 +143,12 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Matías Ovalle",
-                        "link":"#"
+                        "link":"matias-ovalle"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Juan Ignacio Chamorro",
-                        "link":"#"
+                        "link":"juan-ignacio-chamorro"
                     }
                 ]
             }
@@ -176,12 +176,12 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Javier Ovalle",
-                        "link":"#"
+                        "link":"javier-ovalle"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Gerardo Ramírez",
-                        "link":"#"
+                        "link":"gerardo-ramirez"
                     }
                 ]
             }
@@ -207,12 +207,12 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Álvaro Parra",
-                        "link":"#"
+                        "link":"alvaro-parra"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Maricarmen González",
-                        "link":"#"
+                        "link":"maricarmen-gonzalez"
                     }
                 ]
             }
@@ -237,12 +237,12 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Javier Ovalle",
-                        "link":"#"
+                        "link":"javier-ovalle"
                     },
                     {
                         "titulo":"Directora",
                         "nombre":"Juan Francisco Ready",
-                        "link":"#"
+                        "link":"juan-francisco-ready"
                     }
                 ]
             }
@@ -267,7 +267,7 @@
                     {
                         "titulo":"Socio",
                         "nombre":"Álvaro Parra",
-                        "link":"#"
+                        "link":"alvaro-parra"
                     }
                 ]
             }
