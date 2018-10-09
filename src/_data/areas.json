@@ -14,14 +14,28 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socio",
                         "nombre":"Matías Ovalle",
                         "link":"matias-ovalle"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Bárbara Morgan",
                         "link":"barbara-morgan"
+                    },
+                    {
+                        "nombre":"Valentina Acharán",
+                        "link":"valentina-acharan"
+                    },
+                    {
+                        "nombre":"Daniel Retamal",
+                        "link":"daniel-retamal"
+                    },
+                    {
+                        "nombre":"Macarena Waidele",
+                        "link":"macarena-waidele"
+                    },
+                    {
+                        "nombre":"Fernando Olavarría",
+                        "link":"fernando-olavarria"
                     }
                 ]
             }
@@ -43,16 +57,21 @@
                     "Contencioso administrativo"
                 ],
                 "asociados":[
-
                     {
-                        "titulo":"Socio",
                         "nombre":"Javier Ovalle",
                         "link":"javier-ovalle"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Josefina Escobar",
                         "link":"josefina-escobar"
+                    },
+                    {
+                        "nombre":"Javiera Moreno",
+                        "link":"javiera-moreno"
+                    },
+                    {
+                        "nombre":"Catalina Casas",
+                        "link":"catalina-casas"
                     }
                 ]
             }
@@ -76,14 +95,16 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socia",
                         "nombre":"Alejandra Schibli",
                         "link":"alejandra-schibli"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Nicolás Ruedi",
                         "link":"nicolas-ruedi"
+                    },
+                    {
+                        "nombre":"Olivia Ovalle",
+                        "link":"olivia-ovalle"
                     }
                 ]
             }
@@ -110,14 +131,16 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socio",
                         "nombre":"Álvaro Parra",
                         "link":"alvaro-parra"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Joaquín Erlbaun",
-                        "link":"joaquin-erlbaum"
+                        "link":"joaquin-erlbaun"
+                    },
+                    {
+                        "nombre":"Jaime Rodríguez",
+                        "link":"jaime-rodriguez"
                     }
                 ]
             }
@@ -141,14 +164,20 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socio",
                         "nombre":"Matías Ovalle",
                         "link":"matias-ovalle"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Juan Ignacio Chamorro",
                         "link":"juan-ignacio-chamorro"
+                    },
+                    {
+                        "nombre":"Juan Francisco Ready",
+                        "link":""
+                    },
+                    {
+                        "nombre":"María Jesús Pimentel",
+                        "link":""
                     }
                 ]
             }
@@ -174,14 +203,16 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socio",
                         "nombre":"Javier Ovalle",
                         "link":"javier-ovalle"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Gerardo Ramírez",
                         "link":"gerardo-ramirez"
+                    },
+                    {
+                        "nombre":"Matías Ponce",
+                        "link":"matias-ponce"
                     }
                 ]
             }
@@ -205,14 +236,16 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socio",
                         "nombre":"Álvaro Parra",
                         "link":"alvaro-parra"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Maricarmen González",
                         "link":"maricarmen-gonzalez"
+                    },
+                    {
+                        "nombre":"Javiera Zamora",
+                        "link":"javiera-zamora"
                     }
                 ]
             }
@@ -235,14 +268,16 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socio",
                         "nombre":"Javier Ovalle",
                         "link":"javier-ovalle"
                     },
                     {
-                        "titulo":"Directora",
                         "nombre":"Juan Francisco Ready",
                         "link":"juan-francisco-ready"
+                    },
+                    {
+                        "nombre":"Javiera Moreno",
+                        "link":"javiera-moreno"
                     }
                 ]
             }
@@ -265,9 +300,20 @@
                 ],
                 "asociados":[
                     {
-                        "titulo":"Socio",
                         "nombre":"Álvaro Parra",
                         "link":"alvaro-parra"
+                    },
+                    {
+                        "nombre":"Olivia Ovalle",
+                        "link":"olivia-ovalle"
+                    },
+                    {
+                        "nombre":"Juan Francisco Ready",
+                        "link":"juan-francisco-ready"
+                    },
+                    {
+                        "nombre":"Fernando Olavarría",
+                        "link":"fernando-olavarria"
                     }
                 ]
             }

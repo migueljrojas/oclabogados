@@ -47,7 +47,7 @@
                 width: 100%;
                 font-family: $quoteFont;
                 margin: 0;
-                font-size: 36px;
+                font-size: 28px;
                 line-height: 1.4;
                 color: $black;
 
@@ -68,12 +68,9 @@
             &__text {
                 width: 60%;
                 padding-right: 15px;
-                columns: 1;
-                column-gap: 30px;
 
                 @include mq(md) {
                     width: 70%;
-                    columns: 2;
                     padding-right: 60px;
                 }
 
@@ -87,13 +84,23 @@
             &__sidebar {
                 width: 30%;
                 padding-left: 15px;
-                border-left: 1px solid $lightGray;
+                border-left: 1px solid $darkGray;
                 position: sticky;
                 top: 80px;
 
                 @include mq(md) {
                     width: 20%;
                     position: static;
+                }
+
+                img {
+                    max-width: 100%;
+                }
+
+                ._autor {
+                    letter-spacing: 2px;
+                    font-family: $altFont;
+                    font-weight: 200;
                 }
             }
         }

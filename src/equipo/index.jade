@@ -45,7 +45,7 @@ block content
                 if profile.type == 'abogado'
                     .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
                         .equipo__profile__person__img
-                            img(src="/images/equipo/abogados/#{profile.slug}.jpg")
+                            img(src="../images/equipo/abogados/#{profile.slug}.jpg")
                         .equipo__profile__person__data
                             .equipo__profile__person__data__block.equipo__profile__person__data__block--top
                                 h3.equipo__profile__person__name=profile.name
@@ -69,7 +69,7 @@ block content
                 if profile.type == 'admin'
                     .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
                         .equipo__profile__person__img
-                            img(src="/images/equipo/admin/#{profile.slug}.jpg")
+                            img(src="../images/equipo/admin/#{profile.slug}.jpg")
                         .equipo__profile__person__data
                             .equipo__profile__person__data__block.equipo__profile__person__data__block--top
                                 h3.equipo__profile__person__name=profile.name

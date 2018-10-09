@@ -31,11 +31,11 @@
         &__content {
             flex-basis: 26%;
             padding-left: 0;
-            font-size: 14px;
+            font-size: 0.9em;
             line-height: 1.4;
 
             @include mq(md) {
-                padding-left: 50px;
+                padding-left: 95px;
             }
         }
     }

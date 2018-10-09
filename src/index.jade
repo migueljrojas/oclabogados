@@ -6,15 +6,16 @@ block content
     main.home
         section.home__hero
             +slider('home__hero__slider')
-                each slide in site.data.home.slider
+                each slide, index in site.data.home.slider
                     .home__hero__slide
                         .home__hero__img
                             img(src=slide)
-            .home__hero__quote
-                h1.home__hero__quote__text
-                    | Somos un estudio
-                    | que ofrece una amplia
-                    | gama de servicios
-                    | y soluciones legales
-                    | para empresas /  
+                        if index == 2
+                            .home__hero__quote
+                                h1.home__hero__quote__text
+                                    | Somos un estudio
+                                    | que ofrece una amplia
+                                    | gama de servicios
+                                    | y soluciones legales
+                                    | para empresas /  
                 

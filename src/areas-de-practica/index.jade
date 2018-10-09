@@ -17,7 +17,6 @@ block content
                     .areas__page
                         each block in page.pages[0]
                             p!=block
-                    .areas__page
                         if page.pages[1].par
                             each p in page.pages[1].par
                                 p= p
@@ -25,19 +24,16 @@ block content
                         ul.areas__page__servicios
                             each item in page.pages[1].servicios
                                 li=item
+                        p
+                            strong Equipo:
                         dl.areas__page__asociados
                             each item in page.pages[1].asociados
-                                dt= item.titulo
+                                dt= item.nombre
                                 dd
-                                    a(href="/docs/cvs/#{item.link}.pdf")
-                                        span= item.nombre  
+                                    a(href="/docs/cvs/#{item.link}.pdf")   
                                         | CV [
                                         i.material-icons arrow_downward
                                         | ]
-                                        
-                    button.areas__page__nav.areas__page__nav--prev
-                        i.material-icons keyboard_arrow_left
-                    button.areas__page__nav.areas__page__nav--next
-                        i.material-icons keyboard_arrow_right
+                        ._spacer
             
             

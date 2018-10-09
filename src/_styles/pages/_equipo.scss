@@ -1,6 +1,6 @@
 .equipo {
     position: relative;
-    background: url('/images/equipo/fondo.jpg') no-repeat center 0 / cover;
+    background: url('../images/equipo/fondo.jpg') no-repeat center 0 / cover;
     min-height: 100vh;
 
     @include mq(md) {
@@ -18,7 +18,7 @@
         padding: 20px;
 
         @include mq(md) {
-            width: 300px;
+            width: 34%;
             bottom:0;
             top: 0;
             padding: 40px 0 60px 60px;
@@ -71,7 +71,7 @@
 
         @include mq(md) {
             display: flex;
-            padding: 60px 60px 60px 380px;
+            padding: 60px 60px 60px 35%;
         }
 
         &--admin {
@@ -139,6 +139,7 @@
             }
         }
 
+
         &__item {
             font-size: 3.5vw;
             margin: 0 15px 10px;
@@ -146,7 +147,7 @@
 
             @include mq(md) {
                 margin: 0 0 20px;
-                font-size: 1.25vw;
+                font-size: 1vw;
             }
 
             &:hover {
@@ -344,7 +345,7 @@
 
             &__item {
                 display: block;
-                font-size: 14px;
+                font-size: 16px;
             }
 
             &__cv {
@@ -367,7 +368,7 @@
 
             &__email,
             &__role {
-                font-size: 18px;
+                font-size: 16px;
                 display: block;
             }
 

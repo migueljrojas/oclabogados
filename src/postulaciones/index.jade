@@ -42,9 +42,6 @@ block content
                         label.postulaciones__form__label Año Titulación / Indique si aun no se titula
                         input.postulaciones__form__input(type="text")
                     .postulaciones__form__group
-                        label.postulaciones__form__label Nota Examen de Grado
-                        input.postulaciones__form__input(type="text")
-                    .postulaciones__form__group
                         span.postulaciones__form__label Juramento
                         .postulaciones__form__radio
                             input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="si", name="juramento")
@@ -52,3 +49,62 @@ block content
                         .postulaciones__form__radio
                             input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="no", name="juramento")
                             label.postulaciones__form__label(for="no") No
+            .postulaciones__form__wrapper
+              .postulaciones__form__col
+                h3.postulaciones__form__col__title ANTECEDENTES LABORALES
+                .postulaciones__form__group
+                  label.postulaciones__form__label Empleo anterior
+                  input.postulaciones__form__input(type='text')
+                .postulaciones__form__group
+                  label.postulaciones__form__label Cargo
+                  input.postulaciones__form__input(type='text')
+                .postulaciones__form__group
+                  label.postulaciones__form__label Año de Ingreso y Egreso
+                  input.postulaciones__form__input(type='text', placeholder="Inicio")
+                  input.postulaciones__form__input(type='text', placeholder="Termino")
+                .postulaciones__form__group
+                  label.postulaciones__form__label Comentarios
+                  input.postulaciones__form__input(type='email')
+                h3.postulaciones__form__col__title.-alt Adjuntos
+                .postulaciones__form__group
+                      label.postulaciones__form__label Adjuntar Currículum
+                      input.postulaciones__form__input.postulaciones__form__input--file(type='file')
+                .postulaciones__form__group
+                      label.postulaciones__form__label Adjuntar certificado de Ranking
+                      input.postulaciones__form__input.postulaciones__form__input--file(type='file')
+              .postulaciones__form__col
+                h3.postulaciones__form__col__title OTROS ESTUDIOS
+                .postulaciones__form__group
+                  label.postulaciones__form__label Otros estudios
+                  textarea.postulaciones__form__input.postulaciones__form__input--textarea(placeholder='Escriba aqui si ha realizado otros estudios')
+                h3.postulaciones__form__col__title.-alt IDIOMAS
+                .postulaciones__form__group
+                  span.postulaciones__form__label Inglés
+                  .postulaciones__form__radio
+                      input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="eng-basic", name="ingles")
+                      label.postulaciones__form__label.-lang(for="eng-basic") Básico
+                  .postulaciones__form__radio
+                      input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="eng-mid", name="ingles")
+                      label.postulaciones__form__label.-lang(for="eng-mid") Intermedio
+                  .postulaciones__form__radio
+                      input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="eng-adv", name="ingles")
+                      label.postulaciones__form__label.-lang(for="eng-adv") Avanzado
+                .postulaciones__form__group
+                    label.postulaciones__form__label Exámen del Idioma
+                      input.postulaciones__form__input(type='text')
+                .postulaciones__form__group
+                    label.postulaciones__form__label Otro Idioma
+                    input.postulaciones__form__input(type='text')
+                .postulaciones__form__group
+                  .postulaciones__form__radio
+                      input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="oth-basic", name="otro")
+                      label.postulaciones__form__label.-lang(for="oth-basic") Básico
+                  .postulaciones__form__radio
+                      input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="oth-mid", name="otro")
+                      label.postulaciones__form__label.-lang(for="oth-mid") Intermedio
+                  .postulaciones__form__radio
+                      input.postulaciones__form__input.postulaciones__form__input--radio(type="radio", id="oth-adv", name="otro")
+                      label.postulaciones__form__label.-lang(for="oth-adv") Avanzado
+                .postulaciones__form__group
+                    button.postulaciones__form__submit(type="submit") Enviar
+                

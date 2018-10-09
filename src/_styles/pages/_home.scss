@@ -2,13 +2,14 @@
     text-transform: uppercase;
     color: $black;
     font-family: $altFont;
-    letter-spacing: 2.2px;
-    font-size: 4vw;
+    letter-spacing: 2px;
+    font-size: 3.8vw;
     margin: 0 0 20px;
     font-weight: 200;
 
     @include mq(md){
-        font-size: 1.65vw;
+        font-size: 1.35vw;
+        letter-spacing: 4px;
     }
 
     &:before {
@@ -23,12 +24,6 @@
 
     &__hero {
         position: relative;
-
-        &:hover {
-            .home__hero__quote {
-                transform: translateX(0);
-            }
-        }
 
         &__slider {
             .slick-dots {
@@ -48,9 +43,9 @@
             position: relative;
             height: 37.8vh;
             margin-bottom: 25.2vh;
-            overflow: hidden;
 
             @include mq(md) {
+                overflow: hidden;
                 margin-bottom: 0;
                 height: 63vh;
             }
@@ -66,21 +61,23 @@
 
         &__quote {
             @include trans;
-            padding: 30px;
+            padding: 20px;
             position: absolute;
-            top:65%;
-            bottom:0;
+            bottom:30px;
             left:0;
             right: 0;
             background: $fadedRed;
             pointer-events: none;
 
             @include mq(md) {
-                width: 28%;
+                width: 34%;
                 min-width: 380px;
                 right: auto;
                 top:0;
-                transform: translateX(-100%);
+                bottom:0;
+                padding: 50px;
+                letter-spacing: -1px;
+                max-height: 63vh;
             }
 
             &__text {
@@ -90,7 +87,7 @@
                 margin: 0;
 
                 @include mq(md) {
-                    font-size: 2.38vw;
+                    font-size: 2.8vw;
                 }
             }
         }

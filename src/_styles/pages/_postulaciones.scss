@@ -4,7 +4,7 @@
 
     &__img {
         height: 63vh;
-        background: url('/images/postulaciones/fondo.jpg') no-repeat center center / cover;
+        background: url('../images/postulaciones/fondo.jpg') no-repeat center center / cover;
         position: absolute;
         top: 0;
         left:0;
@@ -26,7 +26,7 @@
 
         @include mq(md) {
             max-height: 400px;
-            width: 28%;
+            width: 34%;
             padding: 60px;
         }
     }
@@ -52,13 +52,12 @@
     &__form {
         width: 100%;
         background: $fadedRed;
-        bottom: 0;
         padding: 30px 20px;
 
         @include mq(md) {
-            width: 50%;
+            width: 48%;
             position: absolute;
-            left: 28%;
+            left: 34%;
             top: 0;
             padding: 60px 40px;
         }
@@ -67,17 +66,30 @@
             width: 100%;
             font-size: 18px;
             margin-bottom: 20px;
+
+            @include mq(md){
+                width: 50%;
+            }
         }
 
         &__wrapper {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
+
+            @include mq(md) {
+                flex-wrap: nowrap;
+            }
         }
 
         &__col {
             border-top: 1px solid $red;
             padding-top: 15px;
-            width: 48%;
+            width: 100%;
+
+            @include mq(md) {
+                width: 48%;
+            }
 
             &__title {
                 text-transform: uppercase;
@@ -87,6 +99,12 @@
                 font-size: 17px;
                 letter-spacing: 1px;
                 font-weight: 200;
+
+                &.-alt {
+                    margin-top: 15px;
+                    padding-top: 15px;
+                    border-top: 1px solid;
+                }
             }
         }
 
@@ -99,6 +117,10 @@
             font-family: $mainFont;
             font-weight: 300;
             font-size: 14px;
+
+            &.-lang {
+                font-size: 12px;
+            }
         }
 
         &__radio {
@@ -139,11 +161,41 @@
             }
         }
 
+        &__submit {
+            @include trans;
+            display: inline-block;
+            padding: 0 20px;
+            height: 40px;
+            background: $mainColor;
+            color: $white;
+            font-family: $altFont;
+            font-weight: 600;
+            border: none;
+
+            &:hover {
+                padding: 0 30px;
+            }
+        }
+
         &__input {
             background: none;
             width: 100%;
             border: 1px solid $black;
             height: 28px;
+            padding-left: 10px;
+
+            & + input {
+                margin-top: 10px;
+            }
+
+            &--textarea {
+                height: 80px;
+            }
+
+            &--file {
+                padding: 0;
+                height: 30px;
+            }
 
             &--radio {
                 position: absolute;

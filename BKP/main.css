@@ -15913,6 +15913,7 @@ button._button {
     min-width: 380px;
     right: auto;
     top: 0;
+    bottom: -6px;
     padding: 50px 50px 0 50px;
     bottom: -5px;
   }
