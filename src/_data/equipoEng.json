@@ -153,10 +153,10 @@
             "role":"Senior Associate",
             "email":"Juan.chamorro@ocl.cl",
             "skills": [
-                "Relaciones Laborales",
-                "Asesoría Migratoria",
-                "egociaciones Colectivas",
-                "Seguridad Social"
+                "Labor relations",
+                "Immigration",
+                "Collective bargaining",
+                "Social security"
             ],
             "title":"B.A. in Law",
             "university":"University of Chile",
@@ -170,10 +170,10 @@
             "role":"Senior Associate",
             "email":"joaquin.erlbaum@ocl.cl",
             "skills": [
-                "litigios y Reclamaciones Tributarias"
+                "Litigation and tax disputes"
             ],
             "title":"B.A. in Law",
-            "university":"Pontificia Universidad Católica de Chile",
+            "university":"Pontifical Catholic University of Chile",
             "language":"Spanish and English"
         },
         {
@@ -184,11 +184,11 @@
             "role":"Directora de Área Litigación",
             "email":"josefina.escobar@ocl.cl",
             "skills": [
-                "Arbitrajes",
-                "Litigios Civiles y Comerciales de alta complejidad",
-                "Derecho Regulatorio y Gobierno",
-                "Acciones Constitucionales",
-                "Derecho del Consumidor"
+                "Arbitration",
+                "Complex civil and commercial litigation",
+                "Regulatory law and governance",
+                "Constitutional actions",
+                "Consumer law"
             ],
             "title":"B.A. in Law",
             "university":"University of Chile",
@@ -199,11 +199,11 @@
             "type":"abogado",
             "slug":"maricarmen-gonzalez",
             "name":"Maricarmen González",
-            "role":"Directora de Área Derecho Inmobiliario",
+            "role":"Director, Real Estate Law Area",
             "email":"Maricarmen.gonzalez@ocl.cl",
             "skills": [
-                "Inmobiliario/Desarrollo de Proyectos",
-                "Construcción"
+                "Real Estate / Project Development",
+                "Construction"
             ],
             "title":"B.A. in Law",
             "university":"University of Chile",
@@ -279,7 +279,7 @@
             "role":"Associate",
             "email":"mariajesus.pimentel@ocl.cl",
             "skills": [
-                "Asesoría Laboral y Migratoria"
+                "Labor and immigration law"
             ],
             "title":"B.A. in Law",
             "university":"Adolfo Ibáñez University",
@@ -328,11 +328,11 @@
             "role":"Senior Associate",
             "email":"juan.ready@ocl.cl",
             "skills": [
-                "Relaciones Laborales",
-                "Asesoría Migratoria",
-                "Negociaciones Colectivas",
-                "Litigación Laboral y Civil",
-                "Procedimientos de Liquidación Concursal Voluntaria y Forzosas"
+                "Labor relations",
+                "Immigration",
+                "Collective bargaining",
+                "Labor and civil litigation",
+                "Voluntary and involuntary bankruptcy procedures"
             ],
             "title":"B.A. in Law",
             "university":"University of Chile",
@@ -395,7 +395,7 @@
             "role":"Associate",
             "email":"macarena.waidele@ocl.cl",
             "skills": [
-                "sesoría Corporativa y Comercial"
+                "Corporate and commercial law"
             ],
             "title":"B.A. in Law",
             "university":"Adolfo Ibáñez University",
