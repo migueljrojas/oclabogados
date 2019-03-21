@@ -16222,12 +16222,21 @@ button._button {
   margin: 0 0 20px;
 }
 
+.nosotros__text__main br {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .nosotros__text__main {
     font-size: 2.5vw;
     margin: 0;
     -ms-flex-preferred-size: 28%;
         flex-basis: 28%;
+  }
+  .nosotros__text__main br {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

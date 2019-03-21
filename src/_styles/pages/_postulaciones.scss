@@ -137,6 +137,7 @@
 
                 &:after {
                     @include trans;
+                    
                     content: '';
                     width: 18px;
                     height: 18px;
@@ -149,6 +150,7 @@
 
                 &:before {
                     @include trans;
+
                     display: block;
                     content: '';
                     width: 28px;
