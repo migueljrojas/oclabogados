@@ -61,7 +61,7 @@
             ],
             "title":"Licenciado en Derecho",
             "university":"Universidad de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-socio-1",
@@ -80,7 +80,7 @@
             ],
             "title":"Licenciado en Derecho",
             "university":"Universidad Diego Portales",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-socio-2",
@@ -96,7 +96,7 @@
             ],
             "title":"Licenciado en Derecho",
             "university":"P. Universidad Católica de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-socio-3",
@@ -112,29 +112,29 @@
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad Diego Portales",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-0",
             "type":"abogado",
             "slug":"valentina-acharan",
             "name":"Valentina Acharán",
-            "role":"Asociada",
+            "role":"Associate",
             "email":"valentina.acharan@ocl.cl",
             "skills": [
-                "Asesoría Corporativa y Comercial",
-                "derecho maritimo"
+                "Corporate and commercial law",
+                "Maritime law"
             ],
-            "title":"Licenciada en Derecho",
-            "university":"Universidad De los Andes",
-            "language":"Español e Inglés"
+            "title":"B.A. in Law",
+            "university":"University of the Andes",
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-1",
             "type":"abogado",
             "slug":"catalina-casas",
             "name":"Catalina Casas",
-            "role":"Asociada",
+            "role":"Associate",
             "email":"catalina.casas@ocl.cl",
             "skills": [
                 "Arbitrajes",
@@ -143,14 +143,14 @@
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad Diego Portales",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-2",
             "type":"abogado",
             "slug":"juan-ignacio-chamorro",
             "name":"Juan Ignacio Chamorro",
-            "role":"Asociado Senior",
+            "role":"Senior Associate",
             "email":"Juan.chamorro@ocl.cl",
             "skills": [
                 "Relaciones Laborales",
@@ -160,21 +160,21 @@
             ],
             "title":"Licenciado en Derecho",
             "university":"Universidad de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-3",
             "type":"abogado",
             "slug":"joaquin-erlbaum",
             "name":"Joaquín Erlbaum",
-            "role":"Asociado Senior",
+            "role":"Senior Associate",
             "email":"joaquin.erlbaum@ocl.cl",
             "skills": [
                 "litigios y Reclamaciones Tributarias"
             ],
             "title":"Licenciado en Derecho",
             "university":"Pontificia Universidad Católica de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-4",
@@ -207,14 +207,14 @@
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-6",
             "type":"abogado",
             "slug":"javiera-moreno",
             "name":"Javiera Moreno",
-            "role":"Asociada",
+            "role":"Associate",
             "email":"Javiera.Moreno@ocl.cl",
             "skills": [
                 "Arbitrajes",
@@ -223,7 +223,7 @@
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-7",
@@ -239,28 +239,28 @@
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad Diego Portales",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-8",
             "type":"abogado",
             "slug":"fernando-olavarria",
             "name":"Fernando Olavarría",
-            "role":"Asociado",
+            "role":"Associate",
             "email":"Fernando.olavarria@ocl.cl",
             "skills": [
                 "Asesoría Corporativa y Comercial"
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad Adolfo Ibáñez",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-9",
             "type":"abogado",
             "slug":"olivia-ovalle",
             "name":"Olivia Ovalle",
-            "role":"Asociada",
+            "role":"Associate",
             "email":"olivia.ovalle@ocl.cl",
             "skills": [
                 "Derecho de Seguros",
@@ -269,28 +269,28 @@
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad Adolfo Ibáñez",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-10",
             "type":"abogado",
             "slug":"maria-jesus-pimentel",
             "name":"María Jesús Pimentel",
-            "role":"Asociada",
+            "role":"Associate",
             "email":"mariajesus.pimentel@ocl.cl",
             "skills": [
                 "Asesoría Laboral y Migratoria"
             ],
             "title":"Licenciada en Derecho",
             "university":"Universidad Adolfo Ibáñez",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-11",
             "type":"abogado",
             "slug":"matias-ponce",
             "name":"Matías Ponce",
-            "role":"Asociado",
+            "role":"Associate",
             "email":"matias.ponce@ocl.cl",
             "skills": [
                 "Derecho Regulatorio y de Gobierno",
@@ -300,14 +300,14 @@
             ],
             "title":"Licenciado en Derecho",
             "university":"Universidad de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-12",
             "type":"abogado",
             "slug":"gerardo-ramirez",
             "name":"Gerardo Ramírez",
-            "role":"Asociado Senior",
+            "role":"Senior Associate",
             "email":"gerardo.ramirez@ocl.cl",
             "skills": [
                 "Derecho Administrativo",
@@ -318,14 +318,14 @@
             ],
             "title":"Licenciado en Derecho",
             "university":"Universidad de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-13",
             "type":"abogado",
             "slug":"juan-francisco-ready",
             "name":"Juan Francisco Ready",
-            "role":"Asociado Senior",
+            "role":"Senior Associate",
             "email":"juan.ready@ocl.cl",
             "skills": [
                 "Relaciones Laborales",
@@ -336,14 +336,14 @@
             ],
             "title":"Licenciado en Derecho",
             "university":"Universidad de Chile",
-            "language":"Español e Inglés"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-14",
             "type":"abogado",
             "slug":"daniel-retamal",
             "name":"Daniel Retamal",
-            "role":"Asociado",
+            "role":"Associate",
             "email":"daniel.retamel@ocl.cl",
             "skills": [
                 "Regulación Acuícola ",
@@ -361,7 +361,7 @@
             "type":"abogado",
             "slug":"jaime-rodriguez",
             "name":"Jaime Rodríguez",
-            "role":"Asociado",
+            "role":"Associate",
             "email":"jaime.rodriguez@ocl.cl",
             "skills": [
                 "Derecho Tributario"
@@ -375,7 +375,7 @@
             "type":"abogado",
             "slug":"nicolas-ruedi",
             "name":"Nicolás Ruedi",
-            "role":"Asociado Senior",
+            "role":"Senior Associate",
             "email":"nicolas.ruedi@ocl.cl",
             "skills": [
                 "Derecho Tributario",
@@ -392,7 +392,7 @@
             "type":"abogado",
             "slug":"macarena-waidele",
             "name":"Macarena Waidele",
-            "role":"Asociada",
+            "role":"Associate",
             "email":"macarena.waidele@ocl.cl",
             "skills": [
                 "sesoría Corporativa y Comercial"
@@ -406,7 +406,7 @@
             "type":"abogado",
             "slug":"javiera-zamora",
             "name":"Javiera Zamora ",
-            "role":"Asociada",
+            "role":"Associate",
             "email":"javiera.zamora@ocl.cl",
             "skills": [
                 "Inmobiliario/Desarrollo de Proyectos",
