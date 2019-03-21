@@ -252,7 +252,7 @@
                 "Asesoría Corporativa y Comercial"
             ],
             "title":"B.A. in Law",
-            "university":"Universidad Adolfo Ibáñez",
+            "university":"Adolfo Ibáñez University",
             "language":"Spanish and English"
         },
         {
@@ -282,7 +282,7 @@
                 "Asesoría Laboral y Migratoria"
             ],
             "title":"B.A. in Law",
-            "university":"Universidad Adolfo Ibáñez",
+            "university":"Adolfo Ibáñez University",
             "language":"Spanish and English"
         },
         {
@@ -368,7 +368,7 @@
             ],
             "title":"B.A. in Law",
             "university":"Pontificia Universidad Católica de Chile",
-            "language":"Español e ingles"
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-16",
@@ -378,14 +378,14 @@
             "role":"Senior Associate",
             "email":"nicolas.ruedi@ocl.cl",
             "skills": [
-                "Derecho Tributario",
-                "Auditorías de riesgo y contratos de seguro",
-                "Asesoría en procesos de licitación de programas de seguros nacionales y regionales",
-                "Asesoría en procesos de liquidación de siniestros, impugnación de informes desfavorables y negociación"
+                "Insurance law",
+                "Risk audits and insurance contracts",
+                "National and regional insurance program tenders",
+                "Loss adjustments, objections to negative reports and negotiations"
             ],
             "title":"B.A. in Law",
-            "university":"Universidad Adolfo Ibáñez",
-            "language":"Español e ingles"
+            "university":"Adolfo Ibáñez University",
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-17",
@@ -398,8 +398,8 @@
                 "sesoría Corporativa y Comercial"
             ],
             "title":"B.A. in Law",
-            "university":"Universidad Adolfo Ibáñez",
-            "language":"Español e ingles"
+            "university":"Adolfo Ibáñez University",
+            "language":"Spanish and English"
         },
         {
             "id":"abogado-asociado-18",
@@ -415,7 +415,7 @@
             ],
             "title":"B.A. in Law",
             "university":"Universidad Católica de Chile",
-            "language":"Español e ingles"
+            "language":"Spanish and English"
         },
         {
             "id":"admin-gerente-0",
