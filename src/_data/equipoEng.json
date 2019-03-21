@@ -106,9 +106,9 @@
             "role":"Partner",
             "email":"alejandra.schibli@ocl.cl",
             "skills": [
-                "Auditorías legales de riesgo y programas de seguros",
-                "Diseño y gestión de procesos de licitación de programas de seguros nacionales y regionales",
-                "Asesoría en procesos de liquidación de siniestros"
+                "Legal risk audits and insurance programs",
+                "Design and management of tenders of domestic and regional insurance programs",
+                "Counsel in loss adjustments"
             ],
             "title":"B.A. in Law",
             "university":"Diego Portales University",
@@ -137,9 +137,9 @@
             "role":"Associate",
             "email":"catalina.casas@ocl.cl",
             "skills": [
-                "Arbitrajes",
-                "Litigios Civiles y Comerciales",
-                "Derecho del Consumidor"
+                "Arbitration",
+                "Civil and commercial litigation",
+                "Consumer law"
             ],
             "title":"B.A. in Law",
             "university":"Diego Portales University",
@@ -217,9 +217,9 @@
             "role":"Associate",
             "email":"Javiera.Moreno@ocl.cl",
             "skills": [
-                "Arbitrajes",
-                "litigios Civiles y Comerciales",
-                "Derecho del Consumidor"
+                "Arbitration",
+                "Civil and commercial litigation",
+                "Consumer law"
             ],
             "title":"B.A. in Law",
             "university":"University of Chile",
@@ -230,12 +230,12 @@
             "type":"abogado",
             "slug":"barbara-morgan",
             "name":"Bárbara Morgan",
-            "role":"Directora de Área Derecho Corporativo",
+            "role":"Director, Corporate Law Area",
             "email":"Barbara.Morgan@ocl.cl",
             "skills": [
-                "Asesoría Corporativa y Comercial",
-                "Fusiones y Adquisiciones",
-                "Reorganizaciones"
+                "Corporate and commercial law",
+                "Mergers and acquisitions",
+                "Reorganizations"
             ],
             "title":"B.A. in Law",
             "university":"Diego Portales University",
@@ -249,7 +249,7 @@
             "role":"Associate",
             "email":"Fernando.olavarria@ocl.cl",
             "skills": [
-                "Asesoría Corporativa y Comercial"
+                "Corporate and commercial law"
             ],
             "title":"B.A. in Law",
             "university":"Adolfo Ibáñez University",
@@ -310,11 +310,11 @@
             "role":"Senior Associate",
             "email":"gerardo.ramirez@ocl.cl",
             "skills": [
-                "Derecho Administrativo",
-                "Derecho Regulatorio y de Gobierno",
-                "Acciones Constitucionales",
-                "Asesoría Legislativa ",
-                "Regulación Acuícola"
+                "Administrative law",
+                "Regulatory law and governance",
+                "Constitutional actions",
+                "Legislation",
+                "Aquiculture regulations"
             ],
             "title":"B.A. in Law",
             "university":"University of Chile",
@@ -346,15 +346,15 @@
             "role":"Associate",
             "email":"daniel.retamel@ocl.cl",
             "skills": [
-                "Regulación Acuícola ",
-                "Regulación Pesquera ",
-                "Derecho Administrativo ",
-                "Asesorías Regulatorias ",
-                "Litigación"
+                "Aquiculture regulation",
+                "Fishing regulation",
+                "Administrative law",
+                "Regulations",
+                "Litigation"
             ],
             "title":"B.A. in Law",
-            "university":"Universidad Austral",
-            "language":"Español, Ingles y portuguez"
+            "university":"Austral University",
+            "language":"Spanish, English and Portuguese"
         },
         {
             "id":"abogado-asociado-15",
@@ -364,10 +364,10 @@
             "role":"Associate",
             "email":"jaime.rodriguez@ocl.cl",
             "skills": [
-                "Derecho Tributario"
+                "Tax Law"
             ],
             "title":"B.A. in Law",
-            "university":"Pontificia Universidad Católica de Chile",
+            "university":"Pontifical Catholic University of Chile",
             "language":"Spanish and English"
         },
         {
@@ -409,12 +409,12 @@
             "role":"Associate",
             "email":"javiera.zamora@ocl.cl",
             "skills": [
-                "Inmobiliario/Desarrollo de Proyectos",
-                "Derecho Medioambiental",
-                "Recursos Naturales"
+                "Real estate / project development",
+                "Environmental law",
+                "Natural resources"
             ],
             "title":"B.A. in Law",
-            "university":"Universidad Católica de Chile",
+            "university":"Pontifical Catholic University of Chile",
             "language":"Spanish and English"
         },
         {
