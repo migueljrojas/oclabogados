@@ -49,7 +49,7 @@
             "type":"abogado",
             "slug":"javier-ovalle",
             "name":"Javier Ovalle",
-            "role":"Socio",
+            "role":"Partner",
             "email":"javier.ovalle@ocl.cl",
             "skills": [
                 "Estructuración de negocios e inversión",
@@ -68,7 +68,7 @@
             "type":"abogado",
             "slug":"matias-ovalle",
             "name":"Matías Ovalle",
-            "role":"Socio",
+            "role":"Partner",
             "email":"matias.ovalle@ocl.cl",
             "skills": [
                 "Asesoría Corporativa y Comercial",
@@ -87,7 +87,7 @@
             "type":"abogado",
             "slug":"alvaro-parra",
             "name":"Álvaro Parra",
-            "role":"Socio",
+            "role":"Partner",
             "email":"alvaro.parra@ocl.cl",
             "skills": [
                 "Derecho Tributario",
@@ -103,7 +103,7 @@
             "type":"abogado",
             "slug":"alejandra-schibli",
             "name":"Alejandra Schibli",
-            "role":"Socia",
+            "role":"Partner",
             "email":"alejandra.schibli@ocl.cl",
             "skills": [
                 "Auditorías legales de riesgo y programas de seguros",
