@@ -15372,8 +15372,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding: 0 5px;
 }
 
+.header__nav__language__selector {
+  cursor: pointer;
+}
+
 .header__nav__language__selector.-active {
   color: #dd261c;
+  pointer-events: none;
+  cursor: default;
 }
 
 .header__hamburguer {

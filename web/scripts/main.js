@@ -14679,6 +14679,21 @@ var Header = function() {
             $(this).addClass('-active');
         }
     });
+
+    function detectLang() {
+        var currentLang = $('html').attr('lang');
+        var langClass = currentLang === 'es' ? '-esp' : '-eng';
+        body.addClass(langClass);
+    }
+
+    detectLang();
+
+    $('.header__nav__language__selector').on('click', function(e) {
+        var selectedLang = $(this).data('lang');
+        var url = selectedLang === 'esp' ? '/' : '/en';
+
+        window.location.href = url;
+    });
 };
 
 module.exports = Header;

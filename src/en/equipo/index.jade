@@ -1,0 +1,97 @@
+extends ../../_layouts/base-eng
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../../'
+
+block content
+    main.equipo
+        section.equipo__nav
+            ul.equipo__nav__links
+                li.section-title.equipo__nav__links--lawyers Abogados
+                li.section-title.equipo__nav__links--admin Equipo Administrativo
+        section.equipo__sections
+            .equipo__section.equipo__section--lawyers
+                .equipo__section__maincol
+                    h3.equipo__section__title Socios
+                    ul.equipo__list
+                        each person, index in site.data.equipo.abogados.socios
+                            li.equipo__list__item(data-person-id="abogado-socio-#{index}")= person
+                .equipo__section__secondarycol
+                    h3.equipo__section__title Asociados
+                    .equipo__list.equipo__list--multicol.row
+                        .col-xs-24.col-md-8
+                            .equipo__list__item(data-person-id="abogado-asociado-0")= site.data.equipo.abogados.asociados[0]
+                            .equipo__list__item(data-person-id="abogado-asociado-1")= site.data.equipo.abogados.asociados[1]
+                            .equipo__list__item(data-person-id="abogado-asociado-2")= site.data.equipo.abogados.asociados[2]
+                            .equipo__list__item(data-person-id="abogado-asociado-3")= site.data.equipo.abogados.asociados[3]
+                            .equipo__list__item(data-person-id="abogado-asociado-4")= site.data.equipo.abogados.asociados[4]
+                            .equipo__list__item(data-person-id="abogado-asociado-5")= site.data.equipo.abogados.asociados[5]
+                            .equipo__list__item(data-person-id="abogado-asociado-6")= site.data.equipo.abogados.asociados[6]
+                        .col-xs-24.col-md-8
+                            .equipo__list__item(data-person-id="abogado-asociado-7")= site.data.equipo.abogados.asociados[7]
+                            .equipo__list__item(data-person-id="abogado-asociado-8")= site.data.equipo.abogados.asociados[8]
+                            .equipo__list__item(data-person-id="abogado-asociado-9")= site.data.equipo.abogados.asociados[9]
+                            .equipo__list__item(data-person-id="abogado-asociado-10")= site.data.equipo.abogados.asociados[10]
+                            .equipo__list__item(data-person-id="abogado-asociado-11")= site.data.equipo.abogados.asociados[11]
+                            .equipo__list__item(data-person-id="abogado-asociado-12")= site.data.equipo.abogados.asociados[12]
+                        .col-xs-24.col-md-8
+                            .equipo__list__item(data-person-id="abogado-asociado-12")= site.data.equipo.abogados.asociados[12]
+                            .equipo__list__item(data-person-id="abogado-asociado-13")= site.data.equipo.abogados.asociados[13]
+                            .equipo__list__item(data-person-id="abogado-asociado-14")= site.data.equipo.abogados.asociados[14]
+                            .equipo__list__item(data-person-id="abogado-asociado-15")= site.data.equipo.abogados.asociados[15]
+                            .equipo__list__item(data-person-id="abogado-asociado-16")= site.data.equipo.abogados.asociados[16]
+                            .equipo__list__item(data-person-id="abogado-asociado-17")= site.data.equipo.abogados.asociados[17]
+            .equipo__section.equipo__section--admin
+                .equipo__section__maincol
+                    h3.equipo__section__title Gerencia
+                    ul.equipo__list
+                        each person, index in site.data.equipo.admin.gerencia
+                            li.equipo__list__item(data-person-id="admin-gerente-#{index}")= person
+                .equipo__section__secondarycol
+                    h3.equipo__section__title Equipo
+                    ul.equipo__list.equipo__list--multicol
+                        each person, index in site.data.equipo.admin.equipo
+                            li.equipo__list__item(data-person-id="admin-equipo-#{index}")= person
+        section.equipo__profile
+            ul.equipo__profile__types
+                li.section-title Abogados
+                li.section-title Equipo Administrativo
+            button.equipo__profile__close
+                i.material-icons close
+                button.equipo__profile__pager.equipo__profile__pager--prev
+                button.equipo__profile__pager.equipo__profile__pager--next
+            each profile, index in site.data.equipo.profiles
+                if profile.type == 'abogado'
+                    .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
+                        .equipo__profile__person__img
+                            img(src="../images/equipo/abogados/#{profile.slug}.jpg")
+                        .equipo__profile__person__data
+                            .equipo__profile__person__data__block.equipo__profile__person__data__block--top
+                                h3.equipo__profile__person__name=profile.name
+                                span.equipo__profile__person__role=profile.role
+                                span.equipo__profile__person__email=profile.email
+                            .equipo__profile__person__data__block
+                                h4 Áreas de ejercicio
+                                ul.equipo__profile__person__skills
+                                    each skill in profile.skills
+                                        li=skill
+                            .equipo__profile__person__data__block
+                                span.equipo__profile__person__item=profile.title
+                                span.equipo__profile__person__item=profile.university
+                            .equipo__profile__person__data__block
+                                h4 Idiomas
+                                span.equipo__profile__person__item=profile.language
+                                a.equipo__profile__person__cv(href="/docs/cvs/#{profile.slug}.pdf", target="_blank")
+                                    | CV [
+                                    i.material-icons arrow_downward
+                                    | ]
+                if profile.type == 'admin'
+                    .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
+                        .equipo__profile__person__img
+                            img(src="../images/equipo/admin/#{profile.slug}.jpg")
+                        .equipo__profile__person__data
+                            .equipo__profile__person__data__block.equipo__profile__person__data__block--top
+                                h3.equipo__profile__person__name=profile.name
+                                span.equipo__profile__person__item=profile.role
+                                span.equipo__profile__person__item=profile.email

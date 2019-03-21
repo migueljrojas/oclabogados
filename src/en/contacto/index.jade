@@ -1,0 +1,49 @@
+extends ../../_layouts/base-eng
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../../'
+
+block content
+    main.contacto
+        section.contacto__wrapper
+            .contacto__data
+                .contacto__data__wrap
+                    a(href="mailto:contacto@ocl.cl") contacto@ocl.cl
+                    a(href="tel:+56225779000") (+56) 2 2577 9000
+                    p
+                        |Cerro El Plomo Nº 5420, of. 903
+                        br
+                        | Las Condes
+                        br
+                        |Santiago, Chile
+                        br
+                        | C. Postal 7550000
+                    a(href="https://goo.gl/maps/tswinXiFjSG2", target="_blank")
+                        img(src="../images/location.png")
+
+
+            .contacto__people
+                .contacto__people__wrap
+                    p
+                        strong Gerencia de Administración 
+                            br
+                            |y Recursos Humanos
+                        br
+                        |Isabel Quiroz
+                        br
+                        a(href="mailto:isabel.quiroz@ocl.cl") isabel.quiroz@ocl.cl
+
+                    p
+                        strong Gerencia de Finanzas
+                        br
+                        | María Paz Costa
+                        br
+                        a(href="mailto:mariapaz.costa@ocl.cl") mariapaz.costa@ocl.cl
+
+                    p
+                        strong Facturación y Cobranzas
+                        br
+                        | Claudia Rabí
+                        br
+                        a(href="mailto:claudiarabi@ocl.cl") claudiarabi@ocl.cl
