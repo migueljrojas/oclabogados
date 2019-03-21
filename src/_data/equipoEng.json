@@ -422,7 +422,7 @@
             "type":"admin",
             "slug":"maria-paz-costa",
             "name":"María Paz Costa",
-            "role":"Gerenta de Finanzas",
+            "role":"Finance Manager",
             "email":"mariapaz.costa@ocl.cl"
         },
         {
@@ -430,7 +430,7 @@
             "type":"admin",
             "slug":"isabel-quiroz",
             "name":"Isabel Quiroz",
-            "role":"Gerenta de Administración y Recursos Humanos",
+            "role":"Administration and Human Resource Manager",
             "email":"isabel.quiroz@ocl.cl"
         },
         {
@@ -438,7 +438,7 @@
             "type":"admin",
             "slug":"ricardo-araya",
             "name":"Ricardo Araya ",
-            "role":"Analista Senior Área Finanzas",
+            "role":"Senior Analyst, Finance",
             "email":"ricardo.araya@ocl.cl"
         },
         {
@@ -446,7 +446,7 @@
             "type":"admin",
             "slug":"claudia-rabi",
             "name":"Claudia Rabí",
-            "role":"Analista Facturación y Cobranza",
+            "role":"Invoicing and Collections Analyst",
             "email":"claudiarabi@ocl.cl"
         },
         {
@@ -454,7 +454,7 @@
             "type":"admin",
             "slug":"denisse-valdebenito",
             "name":"Denisse Valdebenito",
-            "role":"Secretaria Recepcionista",
+            "role":"Receptionist",
             "email":"denisse.valdebenito@ocl.cl"
         },
         {
@@ -462,7 +462,7 @@
             "type":"admin",
             "slug":"claudia-soto",
             "name":"Claudia Soto",
-            "role":"Secretaria",
+            "role":"Secretary",
             "email":"claudia.soto@ocl.cl"
         },
         {
@@ -470,7 +470,7 @@
             "type":"admin",
             "slug":"carolina-sagredo",
             "name":"Carolina Sagredo",
-            "role":"Secretaria",
+            "role":"Secretary",
             "email":"carolina.sagredo@ocl.cl"
         },
         {
@@ -478,7 +478,7 @@
             "type":"admin",
             "slug":"patricio-naranjo",
             "name":"Patricio Naranjo ",
-            "role":"Asistente Administrativo",
+            "role":"Administrative Assistant",
             "email":"patricio.naranjo@ocl.cl"
         },
         {
@@ -486,7 +486,7 @@
             "type":"admin",
             "slug":"mathias-donoso",
             "name":"Mathias Donoso",
-            "role":"Asistente Administrativo",
+            "role":"Administrative Assistant",
             "email":"mathias.donoso@ocl.cl"
         },
         {
@@ -494,7 +494,7 @@
             "type":"admin",
             "slug":"erica-cayunao",
             "name":"Erica Cayunao",
-            "role":"Asistente de cocina",
+            "role":"Kitchen Assistant",
             "email":"erica.cayunao@ocl.cl"
         }
     ]

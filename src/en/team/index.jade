@@ -46,12 +46,12 @@ block content
                 .equipo__section__maincol
                     h3.equipo__section__title Management
                     ul.equipo__list
-                        each person, index in site.data.equipo.admin.gerencia
+                        each person, index in site.data.equipoEng.admin.gerencia
                             li.equipo__list__item(data-person-id="admin-gerente-#{index}")= person
                 .equipo__section__secondarycol
                     h3.equipo__section__title Team
                     ul.equipo__list.equipo__list--multicol
-                        each person, index in site.data.equipo.admin.equipo
+                        each person, index in site.data.equipoEng.admin.equipo
                             li.equipo__list__item(data-person-id="admin-equipo-#{index}")= person
         section.equipo__profile
             ul.equipo__profile__types
@@ -61,7 +61,7 @@ block content
                 i.material-icons close
                 button.equipo__profile__pager.equipo__profile__pager--prev
                 button.equipo__profile__pager.equipo__profile__pager--next
-            each profile, index in site.data.equipo.profiles
+            each profile, index in site.data.equipoEng.profiles
                 if profile.type == 'abogado'
                     .equipo__profile__person(data-profile-id=profile.id, data-profile-type=profile.type)
                         .equipo__profile__person__img
@@ -72,7 +72,7 @@ block content
                                 span.equipo__profile__person__role=profile.role
                                 span.equipo__profile__person__email=profile.email
                             .equipo__profile__person__data__block
-                                h4 Áreas de ejercicio
+                                h4 Practice Areas
                                 ul.equipo__profile__person__skills
                                     each skill in profile.skills
                                         li=skill
@@ -80,7 +80,7 @@ block content
                                 span.equipo__profile__person__item=profile.title
                                 span.equipo__profile__person__item=profile.university
                             .equipo__profile__person__data__block
-                                h4 Idiomas
+                                h4 Laguages
                                 span.equipo__profile__person__item=profile.language
                                 a.equipo__profile__person__cv(href="/docs/cvs/eng/#{profile.slug}.pdf", target="_blank")
                                     | CV [
