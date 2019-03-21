@@ -7,12 +7,12 @@ block config
 block content
     main.areas
         section.areas__nav
-            h1.section-title Áreas de práctica
+            h1.section-title Practice Areas
             ul.areas__nav__links
-                each item, index in site.data.areas
+                each item, index in site.data.areasEng
                     li(data-area-target="page-#{index}")= item.title
         section.areas__pages
-            each page, index in site.data.areas
+            each page, index in site.data.areasEng
                 .areas__page__wrapper(data-area-page="page-#{index}")
                     .areas__page
                         each block in page.pages[0]
@@ -20,12 +20,12 @@ block content
                         if page.pages[1].par
                             each p in page.pages[1].par
                                 p= p
-                        p Entre los principales servicios del área destacamos:
+                        p Some of the main services provided by this area are:
                         ul.areas__page__servicios
                             each item in page.pages[1].servicios
                                 li=item
                         p
-                            strong Equipo:
+                            strong Team:
                         dl.areas__page__asociados
                             each item in page.pages[1].asociados
                                 dt= item.nombre

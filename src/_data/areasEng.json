@@ -1,16 +1,16 @@
 [
     {
-        "title":"Derecho Corporativo",
+        "title":"Corporate Practice",
         "pages":[
             [
-                "El área Corporativa es el núcleo de nuestros servicios, en cuanto coordina los trabajos de asesoría de las distintas especialidades, logrando satisfacer las necesidades de los clientes en las más variadas industrias, con la profundidad y realidad que los negocios requieren actualmente.",
-                "Los impactos del desarrollo y la regulación, cada vez más específica, requieren de una permanente búsqueda de soluciones y alternativas a los desafíos más variados, donde contar con un asesor directo, inmediato y con capacidad de respuesta, son imprescindibles."
+                "The Corporate Area is central to our services.  This area coordinates the work of different fields of specialization to satisfy the needs of clients in the most varied of industries with the depth and reality that business requires today.",
+                "The impacts of development and more specific regulation require an ongoing search for solutions and alternatives to a wide variety of challenges.  It is indispensable to have an advisor who can respond quickly and directly."
             ],
             {
                 "servicios":[
-                    "Fusions y Adquisiciones",
-                    "Reorganizaciones",
-                    "Representaciones legales"
+                    "Mergers and Acquisitions",
+                    "Reorganizations",
+                    "Legal representation"
                 ],
                 "asociados":[
                     {
@@ -42,19 +42,19 @@
         ]
     },
     {
-        "title":"Litigación",
+        "title":"Litigation",
         "pages":[
             [
-                "La litigación de alta complejidad y la incorporación de nuevos tribunales especializados son todo un desafío. En este escenario, hemos consolidado un equipo de litigación conformado por profesionales altamente capacitados y de vasta experiencia en esta práctica, capaces de estar a la altura de las nuevas exigencias.",
-                "El área de Litigación se orienta a la resolución estratégica y efectiva de conflictos de alto interés e importancia para cada cliente, acompañándolos desde la etapa previa de negociación, tendiente a evitar la judicialización innecesaria, así como hasta la última instancia jurisdiccional correspondiente.",
-                "Así, desde una mirada creativa y con el conocimiento técnico que respalda al equipo, esta práctica representa los intereses de cada cliente en todo ámbito de controversias, destacando principalmente aquellas de naturaleza comercial, civil, tributaria y contencioso administrativo."
+                "Highly complex litigation and the creation of new specialized courts are quite a challenge.  In this scenario, we have consolidated a litigation team of highly trained professionals with vast experience in this practice, capable of handling the new requirements.",
+                "The Litigation Area provides strategic, effective resolutions of disputes of great interest and importance to each client.  It accompanies them from the initial stage of negotiation, in the effort to avoid unnecessary judicialization, to the final court instance.",
+                "This practice works creatively, using the technical know-how of the team.  It represents the interests of each client in any type of commercial, civil, tax, or  contentious administrative claim."
             ],
             {
                 "servicios":[
-                    "Juicios ordinarios y especiales",
-                    "Arbitrajes",
-                    "Litigación ante tribunales ordinarios",
-                    "Contencioso administrativo"
+                    "Ordinary and special lawsuits",
+                    "Arbitration",
+                    "Litigation before ordinary courts",
+                    "Contentious administrative claims"
                 ],
                 "asociados":[
                     {
@@ -78,20 +78,20 @@
         ]
     },
     {
-        "title":"Derecho de Seguros",
+        "title":"Insurance Practice",
         "pages":[
             [
-                "El terremoto de 2010 reveló la escasa asesoría especializada con la que contaban los asegurados para enfrentar sus reclamaciones de pérdida, revelando la gran asimetría que existía entre estos y sus aseguradores. En virtud de ello, ese mismo año se creó el área de Seguros, orientada a prestar servicios en forma exclusiva a empresas que no forman parte del mercado asegurador.",
-                "Esta área fue pionera en el diseño y gestión de procesos de licitación privada de seguros, servicio que se ha ido sofisticando en el tiempo, extendiéndose a toda clase de coberturas. Ello ha permitido que, de manera transparente, nuestros clientes optimicen al máximo sus programas de seguro, razón por la cual este servicio se ha extendido también a las filiales que algunos de estos tienen en otros países de la región.",
-                "Entre los servicios que presta, destacan los informes de análisis de riesgo, estructuración de programas de seguro, la revisión de las cláusulas atingentes presentes en contratos de construcción, compraventa, leasing, entre otros. Asimismo, se entrega asesoría en la presentación y reclamación de pérdida en procesos de liquidación, minimizándose así la posterior judicialización de controversias."
+                "The 2010 earthquake in Chile revealed how few specialists were available to help the insured handle their loss claims, revealing a great inequality between them and insurers. That same year the Insurance practice was created to provide services exclusively to non-insurance companies.",
+                "This area has been a pioneer in the design and management of private insurance tenders, and it has been perfecting that service as time goes by to include all types of coverage.  As a result, our clients have been able to transparently optimize their insurance programs to the utmost, and have at times asked us to provide this same service to the subsidiaries that some of them have in other countries in the region.",
+                "Some of the more notable services we provide are risk analysis reports, insurance program structures, and a review of the relevant clauses in construction, purchase, lease and other agreements.  We also provide counseling in the filing of insurance claims and in the appeal of loss adjustments, thus keeping the judicialization of disputes to a minimum."
             ],
             {
                 "servicios":[
-                    "Auditorías de Riesgo",
-                    "Diseño de Programas de Seguros",
-                    "Gestión de Procesos de Licitación de Seguros",
-                    "Asesoría en Procesos de Liquidación de Siniestros",
-                    "Gestión externa de todos los asuntos relacionados a seguros (reporte de cambios en el riesgo, solicitudes de endoso, notificación de siniestros, relación con Bancos beneficiarios, entre otros)"
+                    "Risk Audits",
+                    "Insurance Program Design",
+                    "Insurance Tender Management",
+                    "Loss Adjustment Counseling",
+                    "External management of all insurance matters (such as reporting changes in risk, endorsement requests, loss notices, and relationships with beneficiary banks)"
                 ],
                 "asociados":[
                     {
@@ -111,23 +111,23 @@
         ]
     },
     {
-        "title":"Derecho Tributario",
+        "title":"Tax Practice",
         "pages":[
             [
-                "El preciso cumplimiento de la normativa tributaria y un control adecuado y responsable, son condiciones actualmente  fundamentales para obtener una mayor rentabilidad en los negocios. A esto se suma la exigencia cada vez mayor por parte de la autoridad en la participación de la alta dirección corporativa sobre las decisiones tributarias que toma cada empresa.",
-                "Entre las razones que hay detrás de lo anterior destacan  la reforma tributaria que aumenta las facultades del Servicio de Impuestos Internos, el  desarrollo tecnológico que permite un mayor escrutinio sobre las operaciones de los contribuyentes y las nuevas tendencias de fiscalización. Ante esto, el área Tributaria entrega una asesoría experta que  acompaña a cada cliente en todas las etapas del negocio, a efectos de lograr tratamientos tributarios eficientes cuidando en todo momento el adecuado cumplimiento de la legislación vigente.",
-                "Dentro de los principales servicios que ofrece el área está la elaboración de informes de estructura legal tributaria, la revisión de gastos y respaldos y la asesoría especializada en la revisión y redacción de estructuras corporativas, de contratos y en general, de efectos tributarios de todo tipo de transacciones. Las asesorías también se extienden al acompañamiento permanente en procesos de revisión tributaria que buscan disminuir las situaciones de controversia en la etapa administrativa o realizar reclamaciones ante los tribunales que corresponda."
+                "At this time, an exact compliance with tax regulations and an appropriate and responsible control are fundamental to earning a higher return on the business.  Added to this is the fact that the authority is requiring that senior corporate management be involved in the tax decisions adopted by a company.",
+                "Among the reasons behind this are the tax reform, which increased the powers of the Internal Revenue Service of Chile; technologies that allow a greater scrutiny of taxpayers’ operations; and the new oversight trends.",
+                "In view of this, the Tax Area provides expert counseling to accompany each client in all stages of the business so as to achieve an efficient tax management while ensuring that the law is followed at all times.",
+                "Some of the main services offered by this area are the preparation of legal tax structure opinions, a review of expenses and support, and specialized counseling in the review and drafting of corporate structures, contracts and, generally, tax impacts in any type of transaction.",
+                "This service also includes accompanying clients at all times during tax audits in order to reduce potential disputes in the administrative stage or to file appeals before the relevant courts.",
+                "The firm has ample experience in international taxation, both foreign investment in Chile and Chilean investment abroad. This knowledge is complemented by collaborative work with attorneys in the United States, Europe and Asia. In each case, the effects of additional taxation applicable on remittances to abroad are analyzed, together with the applicability of double taxation treaties, the taxation in Chile of passive income held abroad, and the deduction of taxes paid abroad from income tax."
             ],
             {
-                "par":[
-                    "En cuanto a tributación internacional, el estudio cuenta con una amplia experiencia tanto en asesorías de inversión extranjera en Chile, como en inversiones chilenas en el exterior. Este conocimiento se complementa con el trabajo colaborativo desarrollado con abogados en Estados Unidos, Europa y Asia. En cada caso se analizan los efectos del impuesto adicional aplicable a remesas al extranjero, la aplicación de convenios internacionales para evitar la doble tributación internacional, la tributación en Chile por rentas pasivas mantenidas al  extranjero y la utilización como crédito de impuestos pagados en el extranjero."
-                ],
                 "servicios":[
-                    "Informes de estructura legal tributaria",
-                    "Revisión preventiva de gastos y respaldos",
-                    "Tributación Internacional",
-                    "Asistencia en procesos de revisiones tributarias",
-                    "Reclamaciones ante los tribunales tributarios y aduaneros"
+                    "Legal tax structure opinions",
+                    "Preventive review of expenses and support",
+                    "International taxation",
+                    "Assistance in tax audits",
+                    "Appeals before tax and customs courts"
                 ],
                 "asociados":[
                     {
@@ -147,20 +147,19 @@
         ]
     },
     {
-        "title":"Derecho Laboral y Migratorio",
+        "title":"Labor and Immigration Practice",
         "pages":[
             [
-                "Esta área presta asesoría en forma directa y permanente en materias laborales, previsionales y migratorias a empresas de las más variadas actividades productivas.",
-                "Dentro de los servicios que ofrece está la revisión y redacción de documentos que cumplan con la normativa vigente, además de la planificación, gestión e implementación de los procesos vinculados con las relaciones individuales y colectivas de trabajo, destacando entre ellos la asesoría en procesos de negociación colectiva.",
-                "En el ámbito migratorio, el área Laboral y Migratoria asiste en el proceso de contratación de personal extranjero y gestión en la obtención de las autorizaciones migratorias necesarias, tanto en Chile como en el exterior.",
-                "El  equipo se caracteriza por la cercana y cotidiana relación que mantiene con cada cliente. Esto permite entregar un servicio oportuno, de calidad y a la medida de las necesidades particulares de cada empresa.",
-                "Esta área trabaja en constante coordinación con el área de Servicios Judiciales, que asume la representación de nuestros clientes en el ámbito de los asuntos litigiosos que puedan surgir."
+                "This area provides legal counsel directly and permanently in labor, social security and immigration matters to companies engaging in the most varied types of production.  The services it offers include a review and drafting of documents in compliance with governing regulations, and the planning, management and implementation of individual employment contracts and collective bargaining agreements, especially counseling during collective bargaining.",
+                "The Labor and Immigration area assists in the hiring of foreign employees and in the processing of the necessary immigration authorizations both in Chile and abroad.",
+                "The team is characterized by the closeness and daily relationship it has with each client.  This results in a timely, quality service tailored to the particular needs of each company.",
+                "This area works in constant coordination with the Judicial Services area, which represents our clients in litigious matters."
             ],
             {
                 "servicios":[
-                    "Negociaciones colectivas",
-                    "Redacción de contratos de trabajo, finiquitos, Reglamentos Internos, entre otros",
-                    "Gestión de trámites migratorios"
+                    "Collective bargaining",
+                    "Drafting of employment contracts, severance releases and Internal Regulations",
+                    "Immigration proceedings"
                 ],
                 "asociados":[
                     {
@@ -184,7 +183,7 @@
         ]
     },
     {
-        "title":"Derecho Público, Regulatorio y Administrativo",
+        "title":"Government, Regulatory and Administrative Practice",
         "pages":[
             [
                 "En el último tiempo se han acrecentado las regulaciones públicas sobre distintos mercados o actividades. Es por esto que hoy es fundamental, principalmente para el mundo privado, mantener un adecuado control y cumplimiento de estas normas a la hora de desarrollar un buen negocio en Chile.",
@@ -219,7 +218,7 @@
         ]
     },
     {
-        "title":"Derecho Inmobiliario",
+        "title":"Property Practice",
         "pages":[
             [
                 "El estudio cuenta con una amplia experiencia en el ámbito inmobiliario, brindando siempre una asesoría integral en las etapas de evaluación, planificación, desarrollo, financiamiento y posterior comercialización de proyectos industriales, comerciales y residenciales, tanto urbanos como rurales.",
@@ -252,7 +251,7 @@
         ]
     },
     {
-        "title":"Servicios Judiciales",
+        "title":"Judicial Services",
         "pages":[
             [
                 "Hoy en día las empresas se mueven en un contexto donde la exposición a distintas controversias es cada vez más probable, independiente de cuan prolijas o cuidadosas sean, de manera tal que deben internalizarlas como parte de sus riesgos operativos.",
@@ -284,7 +283,7 @@
         ]
     },
     {
-        "title":"Asesoría al Emprendimiento",
+        "title":"Entrepreneurship",
         "pages":[
             [
                 "Gracias al aporte de las pequeñas y medianas empresas a la economía y a los índices laborales del país, el emprendimiento se ha convertido en una de las iniciativas más valoradas en Chile. Sin embargo, iniciar un proyecto o un nuevo negocio no siempre es tarea fácil.",

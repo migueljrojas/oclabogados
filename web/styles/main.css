@@ -15195,6 +15195,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding: 10px 0;
   z-index: 1000;
   background: #fff;
+  width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -15332,6 +15333,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .header__nav__list__item {
   margin-bottom: 10px;
+  white-space: nowrap;
 }
 
 @media (min-width: 992px) {
@@ -15934,9 +15936,16 @@ button._button {
   margin: 0;
 }
 
+.home__hero__quote__text br {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .home__hero__quote__text {
     font-size: 2.8vw;
+  }
+  .home__hero__quote__text br {
+    display: block;
   }
 }
 

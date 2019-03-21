@@ -86,8 +86,16 @@
                 line-height: 1.5;
                 margin: 0;
 
+                br {
+                    display: none;
+                }
+
                 @include mq(md) {
                     font-size: 2.8vw;
+
+                    br {
+                        display: block;
+                    }
                 }
             }
         }
