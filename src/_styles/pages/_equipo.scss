@@ -68,9 +68,9 @@
         font-family: $altFont;
         opacity: 0;
         transform: translateY(-100%);
+        display: flex;
 
         @include mq(md) {
-            display: flex;
             padding: 60px 60px 60px 35%;
         }
 
@@ -125,24 +125,28 @@
     }
 
     &__list {
-        display: flex;
-        flex-wrap: wrap;
 
         @include mq(md) {
+            flex-wrap: wrap;
+            display: flex;
             display: block;
         }
 
         &--multicol {
+            .col-xs-24 {
+                display: flex;
+                flex-wrap: wrap;
 
-            @include mq(md) {
-                columns: 3;
+                @include mq(md) {
+                    display: block;
+                }
             }
         }
 
 
         &__item {
             font-size: 3.5vw;
-            margin: 0 15px 10px;
+            margin: 0 0 5px;
             cursor: pointer;
 
             @include mq(md) {
@@ -178,8 +182,8 @@
 
         &__close {
             position: absolute;
-            right: 20px;
-            top: 80px;
+            right: 10px;
+            top: 20px;
             z-index: 5;
             font-size: 24px;
             background: none;
@@ -206,14 +210,16 @@
 
         &__pager {
             position: absolute;
-            top: 22%;
-            height: 60px;
-            width: 40px;
+            top: calc(70vw - 40px);
+            height: 30px;
+            width: 20px;
             background: none;
             border: none;
             z-index: 5;
 
             @include mq(md) {
+                height: 60px;
+                width: 40px;
                 top: calc(50% - 30px);
             }
 
@@ -227,21 +233,33 @@
                 &:before,
                 &:after {
                     content: '';
-                    height: 30px;
+                    height: 15px;
                     width: 1px;
                     position: absolute;
                     left:20px;
                     background: $black;
                     top:0;
+
+                    @include mq(md) {
+                        height: 30px;
+                    }
                 }
 
                 &:after {
-                    top: 30px;
+                    top: 15px;
+
+                    @include mq(md) {
+                        top: 30px;
+                    }
                 }
             }
 
             &--prev{
-                left: 20px;
+                left: 0;
+
+                @include mq(md) {
+                    left: 20px;
+                }
 
                 &:before {
                     transform: skewX(-30deg);
@@ -269,7 +287,7 @@
             position: absolute;
             z-index: 2;
             top: 0;
-            bottom:0;
+            //bottom:0;
             left:0;
             width: 300px;
             padding: 15px;
@@ -332,11 +350,13 @@
                 img {
                     position: absolute;
                     top:0;
-                    left:50%;
                     height: 100%;
-                    transform: translateX(-50%);
+                    right: 0;
 
                     @include mq(md) {
+                        right: auto;
+                        transform: translateX(-50%);
+                        left:50%;
                         height: auto;
                         width: 100%;
                     }
@@ -352,6 +372,10 @@
                 display: flex;
                 align-items: center;
                 font-size: 14px;
+
+                i {
+                    font-size: 16px;
+                }
             }
 
             &__skills {

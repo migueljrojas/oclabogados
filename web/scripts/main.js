@@ -14810,6 +14810,45 @@ var Equipo = function() {
             setPrevProfile(activeProfileIndex);
         });
 
+        var touchstartX = 0;
+        var touchstartY = 0;
+        var touchendX = 0;
+        var touchendY = 0;
+
+        $('.equipo__profile__person').on('touchstart', function(event) {
+            console.log(event.touches[0].pageX);
+            touchstartX = event.touches[0].pageX;
+            touchstartY = event.touches[0].pageY;
+        });
+
+        $('.equipo__profile__person').on('touchend', function(event) {
+            console.log(event);
+            touchendX = event.originalEvent.changedTouches[0].pageX;
+            touchendY = event.originalEvent.changedTouches[0].pageY;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            var swiped = 'swiped: ';
+            console.log('touchendX', touchendX);
+            if (touchendX < touchstartX) {
+                console.log('next');
+                // next
+                var profilesArray = $.makeArray(profiles);
+                var activeProfileIndex = profilesArray.findIndex(isActive);
+
+                setNextProfile(activeProfileIndex);
+            }
+            if (touchendX > touchstartX) {
+                console.log('prev');
+                // prev
+                var profilesArray = $.makeArray(profiles);
+                var activeProfileIndex = profilesArray.findIndex(isActive);
+
+                setPrevProfile(activeProfileIndex);
+            }
+        }
+
         function setNextProfile(index) {
             var limit = profiles.length - 1;
             var newIndex = index < limit ? index + 1 : 0;
@@ -14829,10 +14868,6 @@ var Equipo = function() {
             $(profiles.get(newIndex)).addClass('-active');
             checkProfileType();
         }
-
-        prevProfile.on('click', function() {
-
-        });
 
         openLawyersSection.on('click', function() {
             $(this).removeClass('-inactive');
